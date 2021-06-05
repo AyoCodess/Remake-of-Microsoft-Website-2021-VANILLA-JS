@@ -18,10 +18,11 @@ html {
 }
 
 body {
-  font-family: Helvetica;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
-  background: #000;
+  background: #fff;
   color: #999;
+  font-size: 1.2rem;
 }
 
 ul {
@@ -32,11 +33,11 @@ h1,
 h2,
 h3,
 h4 {
-  color: #fff;
+  color: #6f6f6e;
 }
 
 a {
-  color: #fff;
+  color: #6f6f6e;
   text-decoration: none;
 }
 
@@ -49,3 +50,53 @@ img {
 }
 
 /* ! BASIC SETUP ENDS */
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/*? NAVIGATION BAR */
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 3rem;
+  padding: 1rem 0rem;
+}
+
+.logo {
+  width: 11rem;
+}
+
+.main-menu {
+  display: flex;
+  flex: 1;
+  align-self: flex-start;
+  margin-left: 3rem;
+}
+
+.main-menu a {
+  margin-left: 3rem;
+  font-size: 1.3rem;
+  padding-bottom: 0.5rem;
+}
+
+.right-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-menu a {
+  margin-left: 5rem;
+  padding-bottom: 0.5rem;
+}
+
+.main-menu a:hover,
+.right-menu a:hover {
+  border-bottom: 2px solid #6f6f6e;
+}
+
+/*? NAVIGATION BAR ENDS */
