@@ -64,7 +64,6 @@ img {
   justify-content: space-between;
 
   height: 3rem;
-  padding: 1rem 0rem;
 }
 
 .logo {
@@ -74,13 +73,12 @@ img {
 .main-menu {
   display: flex;
   flex: 1;
-  align-self: flex-start;
+
   margin-left: 3rem;
 }
 
 .main-menu a {
   margin-left: 3rem;
-  font-size: 1.3rem;
   padding-bottom: 0.5rem;
 }
 
@@ -90,7 +88,7 @@ img {
 }
 
 .right-menu a {
-  margin-left: 5rem;
+  margin-left: 3rem;
   padding-bottom: 0.5rem;
 }
 
@@ -99,4 +97,16 @@ img {
   border-bottom: 2px solid #6f6f6e;
 }
 
+li {
+  white-space: nowrap;
+}
+
 /*? NAVIGATION BAR ENDS */
+
+/* ! HELPER CLASSES */
+
+/* * TEXT STYLES * */
+
+.main-menu-text {
+  font-size: 1.3rem;
+}
