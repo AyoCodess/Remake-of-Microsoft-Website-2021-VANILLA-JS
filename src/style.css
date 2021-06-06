@@ -41,14 +41,6 @@ a {
   text-decoration: none;
 }
 
-p {
-  margin: 0.7rem 0;
-}
-
-img {
-  width: 100%;
-}
-
 /* ! BASIC SETUP ENDS */
 
 .container {
@@ -103,10 +95,99 @@ li {
 
 /*? NAVIGATION BAR ENDS */
 
+/** SHOWCASE AREA TOP **/
+
+.showcase {
+  width: 100%;
+  height: 40rem;
+  background: url(/images/heroSlider.jpeg) no-repeat center center/cover;
+}
+
+.showcase-text-area {
+  display: grid;
+  gap: 1.5rem;
+
+  padding-left: 5rem;
+  padding-top: 15rem;
+
+  margin-top: 1.7rem;
+}
+
+.showcase-text-area h2 {
+  color: #262626;
+  font-size: 3rem;
+}
+
+.showcase-text-area p {
+  color: #262626;
+  font-weight: bold;
+}
+
+.showcase-text-area a {
+  width: 13rem;
+}
+/** SHOWCASE AREA TOP ENDS **/
+
+/*? SHOWCASE AREA BOTTOM **/
+
+.showcase-bottom-container {
+  width: 70%;
+  margin: auto;
+}
+
+.showcase-bottom {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+  justify-content: center;
+  align-items: center;
+
+  column-gap: 3rem;
+
+  margin-top: 8rem;
+
+  text-align: center;
+}
+
+.showcase-bottom a img {
+  margin-bottom: 1rem;
+}
+/*? SHOWCASE AREA BOTTOM ENDS **/
+
 /* ! HELPER CLASSES */
 
-/* * TEXT STYLES * */
+/** TEXT STYLES **/
 
 .main-menu-text {
   font-size: 1.3rem;
+}
+
+.showcase-bottom-text {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.showcase-bottom-text a {
+  color: black;
+}
+
+/** TEXT STYLES END **/
+
+/*? BUTTON STYLES **/
+
+.btn {
+  display: inline-block;
+  cursor: pointe;
+  border: 0;
+  font-weight: bold;
+  background: #262626;
+  padding: 1rem 2rem;
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 0.9;
 }
