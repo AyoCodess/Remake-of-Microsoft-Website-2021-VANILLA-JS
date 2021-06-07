@@ -164,19 +164,26 @@ li {
 
 .tabs-buttons {
   margin-top: 6rem;
+  margin-bottom: 3rem;
 }
 
 .tabs-buttons a:first-child {
   margin-right: 3rem;
 }
 
+.tab-line {
+  border-bottom: 2px solid black;
+
+  margin-top: 2rem;
+  width: 40rem;
+  margin: auto;
+}
 .tabs-blog-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 2rem;
 
   justify-content: center;
-  align-items: center;
 
   margin-top: 1.7rem;
 }
@@ -205,7 +212,53 @@ li {
   color: black;
 }
 
+.tabs-double-links a:first-child {
+  margin-right: 3rem;
+}
+
 /** TABS AREA ENDS **/
+
+/*? TABS ABOUT ME AREA */
+
+.tabs-about-me-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+
+  margin-top: 4rem;
+}
+
+.tabs-about-me {
+  width: 80%;
+  margin: auto;
+}
+
+.tabs-about-me-container img {
+  width: 20rem;
+}
+
+.tabs-about-me-container h1 {
+  color: black;
+}
+
+.tabs-about-me-container p {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: black;
+}
+
+.tabs-about-me-container a {
+  margin-top: 2rem;
+}
+
+.tabs-about-me-container a {
+  margin-right: 0.5rem;
+}
+
+/*? TABS ABOUT ME AREA ENDS */
 
 /* ! HELPER CLASSES */
 
