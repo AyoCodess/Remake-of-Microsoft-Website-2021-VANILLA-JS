@@ -23,6 +23,8 @@ body {
   background: #fff;
   color: #999;
   font-size: 1.2rem;
+
+  margin-top: 2.5rem;
 }
 
 ul {
@@ -156,15 +158,26 @@ li {
 
 /** TABS AREA **/
 
+#tab-1-content,
+#tab-2-content {
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+
 .tabs-button-container {
   display: flex;
   justify-content: center;
   align-content: center;
+
+  margin-top: 3rem;
 }
 
 .tabs-buttons {
-  margin-top: 6rem;
-  margin-bottom: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .tabs-buttons a:first-child {
@@ -175,7 +188,7 @@ li {
   border-bottom: 2px solid black;
 
   margin-top: 2rem;
-  width: 40rem;
+  width: 20rem;
   margin: auto;
 }
 .tabs-blog-container {
@@ -220,6 +233,10 @@ li {
 
 /*? TABS ABOUT ME AREA */
 
+.tabs-about-me-container-with-image {
+  margin-top: 4rem;
+}
+
 .tabs-about-me-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -227,8 +244,6 @@ li {
   justify-content: center;
   align-items: center;
   justify-items: center;
-
-  margin-top: 4rem;
 }
 
 .tabs-about-me {
@@ -308,4 +323,17 @@ li {
   color: blue;
   border-bottom: 2px solid;
   padding: 1rem 0 0 0;
+}
+
+.tabs-button {
+  display: inline-block;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border: 0;
+  padding: 1rem 0 0 0;
+  color: black;
+}
+
+.tabs-button:hover {
+  color: #6f6f6e;
 }
