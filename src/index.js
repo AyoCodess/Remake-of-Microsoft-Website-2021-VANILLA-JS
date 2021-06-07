@@ -1,7 +1,8 @@
 const tabsButtons = document.querySelectorAll(".tabs-button");
 const tabsContentItems = document.querySelectorAll(".tabs-content-item");
 
-const selectItem = function () {
+const selectItem = function (e) {
+  e.preventDefault();
   //removing show class from tab content
   removeShow();
 
