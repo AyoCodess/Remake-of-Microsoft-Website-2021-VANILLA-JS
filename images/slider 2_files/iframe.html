@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<!-- saved from url=(0136)https://publisher.liveperson.net/iframe-le-tag/iframe.html?lpsite=60270350&lpsection=store-sales-en-gb&buttons=lpChatService,lpChatSales -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>iFrame Cart Page</title>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="format-detection" content="telephone=no">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<style>
+		body {
+			background-image:url('https://lpcdn.lpsnmedia.net/le_unified_window/9.12.0.19-release_4769/resources/loader_on_warmGray5_75.gif');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-position: center;
+		}
+
+		@font-face {
+			font-family: "Segoe UI";
+			src: url("https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2") format('woff');
+		}
+		
+		* {
+			font-family: "Segoe UI", Arial, sans-serif !important;
+		}
+
+		body #lpChat .lp_dialog_container .lp_buttons_area .lp_confirm_button {
+			color: #000 !important;
+		}
+
+		.lp-iframe-window, .lp_desktop #lpChat > .lp_maximized {
+			width: 100% !important;
+			height: 600px !important;
+		}
+		
+		@media only screen and (max-height:200px) {
+			body {
+				background-image: none;
+			}
+		}
+
+		#lpChat .lp_minimized .lp_notification_number {
+			margin-top: 2px !important;
+		}
+
+		.lp-json-pollock-layout.lp-json-pollock-layout-vertical {
+			border-radius: 15px;
+		}
+
+		#lpChat .lp_csat_rater_star {
+			color: #fff !important;
+		}
+
+		.LPMcontainer {
+			display: none !important;
+		}
+
+		.lp_mobile #lpChat>.lp_maximized, .lp_tablet #lpChat>.lp_maximized {
+			opacity: 1 !important;
+			width: 100vw !important;
+		}
+
+		.lp_desktop #lpChat > .lp_minimized {
+			width: 400px !important;
+		}
+
+		.lp_desktop #lpChat > .lp_maximized {
+			height: 600px !important;
+    		width: 400px !important;
+			font-size: 14px !important;
+			font-family: Segoe UI !important; 
+			max-height: 100% !important;
+		}
+
+		[data-lp-point="lp_line_state"] {
+			left: -90px !important;
+		}
+
+		.lp_sender {
+			display: none !important;
+		}
+
+		.lp_chat_line_wrapper {
+			overflow: visible !important;
+			margin-bottom: 12px !important;
+			padding: 0px 10px 4px 24px !important;
+		}
+
+		[data-lp-point="headerText"] {
+			color: #fff !important;
+		}
+
+		.lp-json-pollock-element-text {
+			padding: 0 !important;
+		}
+
+		.lp-json-pollock-element-text {
+			padding: 12px !important;
+			border: none !important;
+			max-width: 80% !important;
+			background-color: #fff !important;
+			border-radius: 3px !important;
+			border-top: 3px solid #50e6ff !important;
+			box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.25) !important;
+		}
+
+		div.lp-json-pollock-element-text span {
+			color: #000 !important;
+		}
+
+		#lpChat .lp_main .lp_main_area .lp_location_bottom .lp_bottom_area {
+			padding-left: 24px !important;
+		}
+
+		[data-lp-point="chattingWithIcon"] {
+			display: none !important;
+		}
+
+		[data-lp-cust-id="transcript_bubble_visitor"] {
+			padding: 12px !important;
+			border: none !important;
+			max-width: 80% !important;
+			background-color: #D2D2D2 !important;
+			box-shadow: 0 3px 5px -3px rgba(0, 0, 0, 0.25) !important;
+			min-width: 60px;
+			margin: 0 auto !important;
+		}
+
+		[data-lp-cust-id="transcript_bubble_agent_text"],
+		[data-lp-cust-id="transcript_bubble_visitor_text"] {
+			color: #000 !important;
+			line-height: 1.45em !important;
+		}
+
+		.lp_chat_arrow_border,
+		.lp_chat_arrow {
+			display: none !important;
+		}
+
+		.lp_time {
+			color: #6e6e6e !important;
+		}
+
+		.lp_chat_line {
+			border-radius: 3px !important;
+		}
+
+		textarea.lpview_form_textarea.lp_expandable_textarea.lp_ltr {
+			color: #000 !important;
+		}
+
+		.lp-window-root .lp_chat_line_wrapper.lpc_message-area .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout .lp-json-pollock-element-text:nth-child(even) span {
+			color: #737373 !important;
+		}
+
+		.lp_system {
+			background-color: #fff !important;
+			padding: 18px !important;
+		}
+
+		#lpChat img {
+			vertical-align: top !important;
+		}
+
+		.lp_desktop #lpChat>.lp_maximized>.lp_main {
+			top: 40px !important;
+		}
+
+		.lp-json-pollock-layout.lp-json-pollock-layout-vertical {
+			border: none !important;
+			background-color: transparent !important;
+		}
+
+		.lp-json-pollock-element-button button {
+			color: #000 !important;
+			cursor: pointer;
+		}
+
+		.lp-json-pollock-element-button:hover,
+		button.chips-item:hover {
+			transform: translateY(-2px) !important;
+			transition: all 0.15s ease !important;
+			box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.5) !important;
+		}
+
+		button.chips-item:first-of-type {
+			margin-left: 14px !important;
+		}
+
+		.lp_confirm_button {
+			color: #000 !important;
+		}
+
+		.lp_cancel_button {
+			background-color: #e2e2e2 !important;
+			border: none !important;
+			border-radius: 3px !important;
+			box-shadow: 0 3px 5px -2px rgba(0, 0, 0, 0.25) !important;
+			min-width: 100px !important;
+			text-align: center !important;
+		}
+
+		[data-lp-point="header"] {
+			min-height: 40px !important;
+			padding: 0px 15px !important;
+			background-color: #243a5e !important;
+			border: none !important;
+		}
+
+		[data-lp-cust-id="transcript_bubble_agent"] {
+			padding: 12px !important;
+			border: none !important;
+			max-width: 80% !important;
+			background-color: #fff !important;
+			border-radius: 3px !important;
+			border-top: 3px solid #50e6ff !important;
+			box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.25) !important;
+		}
+
+		button[role="button"].chips-item {
+			background-color: #50e6ff !important;
+			border: none !important;
+			border-radius: 3px !important;
+			box-shadow: 0 3px 5px -2px rgba(0, 0, 0, 0.25) !important;
+			min-width: 100px !important;
+			text-align: center !important;
+		}
+
+		@font-face {
+			font-family: "MWF-MDL2";
+			src: url("https://www.microsoft.com/mwf/_h/v3.07/mwf.app/fonts/mwfmdl2-v3.07.woff2") format("woff2"),
+			url("https://www.microsoft.com/mwf/_h/v3.07/mwf.app/fonts/mwfmdl2-v3.07.woff") format("woff"),
+			url("https://www.microsoft.com/mwf/_h/v3.07/mwf.app/fonts/mwfmdl2-v3.07.ttf") format("truetype"),
+			url("https://www.microsoft.com/mwf/_h/v3.07/mwf.app/fonts/mwfmdl2-v3.07.svg") format("svg");
+		}
+		
+		.stars .chip-items {
+			font-family: 'MWF-MDL2', sans-serif;
+		}
+
+		.stars button.chips-item {
+			background-color: transparent !important;
+			box-shadow: none !important;
+			min-width: auto !important
+		}
+
+		.stars button.chips-item:hover {
+			transform: none !important;
+    		box-shadow: none !important;
+		}
+
+		div.stars {
+			justify-content: left;
+		}
+
+		.lp-json-pollock-element-button {
+			border: none !important;
+			background-color: #50e6ff !important;
+			margin: 12px auto !important;
+			box-shadow: 0 3px 5px -2px rgba(0, 0, 0, 0.25) !important;
+			border-radius: 3px !important;
+		}
+		
+		div.lp-json-pollock-layout div.lp-json-pollock-element-text {
+			background-color: #fff !important;
+		}
+
+		.lp_confirm_button {
+			color: #fff !important;
+		}
+
+		.lp-json-pollock-element-text, .lp-json-pollock-element-text span {
+			background-color: transparent !important;
+		}
+
+		.lp-json-pollock-element-button button {
+			background-color: transparent !important;
+		}
+
+		.lp_confirm_button {
+			background-color: #50e6ff !important;
+			border: none !important;
+			border-radius: 3px !important;
+			box-shadow: 0 3px 5px -2px rgba(0, 0, 0, 0.25) !important;
+			min-width: 100px !important;
+			text-align: center !important;
+		}
+
+		.lp_maximized.lpmx {
+			right: 0px !important;
+		}
+		
+		button.lp_submit_button {
+			color: #fff !important;
+		}
+		
+		.chatContainer {
+			display: none;
+		}
+
+        .lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout{
+            max-width: 100% !important;
+        }
+
+		.lp-window-root .lp_maximized.lp_left_slider .lp_slider {
+			right: 400px !important;
+			width: 400px !important;
+			height: 100% !important;
+		}
+		.lp-window-root .lp_maximized.lp_slider_open .lp_header {
+			width: 400px !important;
+		}
+		.lp-window-root .lp_maximized.lp_slider_open .lp_main {
+			width: 400px !important;
+		}
+		.lp-window-root button.lp_cb_button.lp_cb_button_accept:disabled {
+			cursor: auto !important;
+			pointer-events: none !important;
+            background: #CCCCCC !important;
+			border: none !important;
+		}
+		.lp-window-root div.checkbox_video {
+			position: relative !important;
+            left: 30px !important;
+			bottom: 10px !important;
+		}
+		.lp-window-root input[type=checkbox] {
+			position: relative !important;
+			zoom: 1.5 !important;
+			top: 2.5px !important
+        }
+        .lp-window-root input:disabled,
+        .lp-window-root input[disabled] {
+            background-color: #cccccc;
+            color: #666666;
+        }
+        .lp_cb_invitation_text:focus {
+            border: #505050 dashed 1px !important;
+        }
+	.lp_maximized {height: 600px !important;width: 400px !important;}</style>
+<script charset="UTF-8" src="./tag.js"></script><script charset="UTF-8" id="_lpTagScriptId_0" src="./jsonp"></script><script type="text/javascript" charset="iso-8859-1" src="./lp_ada_enhancements-prod.js"></script><link id="adaStyle" rel="stylesheet" href="./lp_ada_enhancements-prod.css"><script type="text/javascript" charset="UTF-8" src="./overlay.js"></script><script type="text/javascript" charset="UTF-8" src="./UISuite.js"></script></head>
+<body>  
+	<script type="text/javascript">
+		var lpTag = lpTag || {}, lpMTagConfig = lpMTagConfig || {}; lpTag.vars = lpTag.vars  || []; lpTag.dbs = lpTag.dbs || []; lpTag.sdes = lpTag.sdes||[];
+		
+		(function paramGrabber() {
+			var params = window.location.href.split('?')[1];
+			var lpSettings = {};
+
+			if (params) {
+				params = params.split('&');
+			
+				for (i = 0; params.length > i; i++) {
+					if (params[i].search('buttons') > -1) {
+						paramName = params[i].split('=')[0];
+						paramValue = params[i].split('=')[1].split(',');
+						lpSettings[paramName] = paramValue;
+					} else {
+						paramName = params[i].split('=')[0];
+						paramValue = params[i].split('=')[1];
+						lpSettings[paramName] = paramValue;
+					}
+				}
+			}
+			
+			if (lpSettings.lpsite) {
+				lpTag.site = lpSettings.lpsite;
+			} else {
+				lpTag.site = 60270350;
+			}
+
+			if (lpSettings.lpsection) {
+				lpTag.section = lpSettings.lpsection;
+			}
+
+			if (lpSettings.buttons) {
+				for(i = 0; lpSettings.buttons.length > i; i++) {
+					var button = document.createElement('div');
+					button.id = lpSettings.buttons[i];
+					button.style = 'display:none;';
+					document.body.appendChild(button);
+				}
+			}
+		})();
+		
+		window.lpTag=window.lpTag||{},'undefined'==typeof window.lpTag._tagCount?(window.lpTag={wl:lpTag.wl||null,scp:lpTag.scp||null,site:lpTag.site||'',section:lpTag.section||'',tagletSection:lpTag.tagletSection||null,autoStart:lpTag.autoStart!==!1,ovr:lpTag.ovr||{},_v:'1.10.0',_tagCount:1,protocol:'https:',events:{bind:function(t,e,i) {lpTag.defer(function() {lpTag.events.bind(t,e,i)},0)},trigger:function(t,e,i) {lpTag.defer(function() {lpTag.events.trigger(t,e,i)},1)}},defer:function(t,e) {0===e?(this._defB=this._defB||[],this._defB.push(t)):1===e?(this._defT=this._defT||[],this._defT.push(t)):(this._defL=this._defL||[],this._defL.push(t))},load:function(t,e,i) {var n=this;setTimeout(function() {n._load(t,e,i)},0)},_load:function(t,e,i) {var n=t;t||(n=this.protocol+'//'+(this.ovr&&this.ovr.domain?this.ovr.domain:'lptag.liveperson.net')+'/tag/tag.js?site='+this.site);var o=document.createElement('script');o.setAttribute('charset',e?e:'UTF-8'),i&&o.setAttribute('id',i),o.setAttribute('src',n),document.getElementsByTagName('head').item(0).appendChild(o)},init:function() {this._timing=this._timing||{},this._timing.start=(new Date).getTime();var t=this;window.attachEvent?window.attachEvent('onload',function() {t._domReady('domReady')}):(window.addEventListener('DOMContentLoaded',function() {t._domReady('contReady')},!1),window.addEventListener('load',function() {t._domReady('domReady')},!1)),'undefined'===typeof window._lptStop&&this.load()},start:function() {this.autoStart=!0},_domReady:function(t) {this.isDom||(this.isDom=!0,this.events.trigger('LPT','DOM_READY',{t:t})),this._timing[t]=(new Date).getTime()},vars:lpTag.vars||[],dbs:lpTag.dbs||[],ctn:lpTag.ctn||[],sdes:lpTag.sdes||[],hooks:lpTag.hooks||[],identities:lpTag.identities||[],ev:lpTag.ev||[]},lpTag.init()):window.lpTag._tagCount+=1;
+
+		lpTag.iframe = {
+			buttonClicked: undefined,
+			windowOpened: undefined,
+			lpButton: undefined,
+			lpReady: undefined,
+			lpData: undefined,
+			configuration: {
+				storageType: undefined,
+				mobileDevice: false,
+				windowInit: false,
+				parentHeight: undefined,
+				parentWidth: undefined,
+				windowState: undefined,
+				lpcurl: undefined,
+				lppagename: undefined,
+				invite: undefined,
+
+				currentAgent: undefined,
+				currentSkill: undefined,
+				conversationId: undefined,
+                jsllBound: false,
+				convInfo: undefined
+			}
+		}
+
+		lpTag.iframe.adobeAnalyticsLPBindingInit = function() {
+			lpTag.external = lpTag.external || {};
+			lpTag.external.adobeAnalytics = {
+				checkAgent: function (convInfo) {
+                    lpTag.iframe.configuration.jsllBound = true;
+					
+					var updateAWA = function updateAWA() {
+						if (convInfo.agentName != undefined && lpTag.iframe.configuration.currentAgent && lpTag.iframe.configuration.currentSkill && lpTag.iframe.configuration.conversationId) {
+
+							var overrideValues = {
+								behavior: 21,
+								actionType: "A",
+								contentTags: {
+									"scn": lpTag.iframe.configuration.currentAgent,
+									"scnstp": lpTag.iframe.configuration.currentSkill,
+									"chtid": lpTag.iframe.configuration.conversationId
+								}
+							}
+								
+							if (awa) {
+								awa.ct.captureContentPageAction(overrideValues);
+							}
+						}
+					}
+
+					if (convInfo.agentName != undefined && convInfo.agentName != lpTag.iframe.configuration.currentAgent) {
+						switch (convInfo.agentName) {
+							case 'Microsoft Store':
+							case 'Microsoft Sales':
+								lpTag.iframe.configuration.currentAgent = 'Greeter Bot';
+								break;
+
+							case 'Virtual Agent UAT':
+							case 'Virtual Agent DEV':
+							case 'Virtual Agent DEV2':
+							case 'Virtual Agent STAGE':
+							case 'Virtual Agent':
+								lpTag.iframe.configuration.currentAgent = 'AI Bot';
+								break;
+
+							case 'Microsoft Post Conversation Survey Bot':
+								lpTag.iframe.configuration.currentAgent = 'Survey Bot';
+								break;
+						
+							default:
+								lpTag.iframe.configuration.currentAgent = 'Human Agent'
+								break;
+						}
+
+						updateAWA();
+					}
+
+					if (convInfo.skill != undefined && convInfo.skill != lpTag.iframe.configuration.currentSkill) {
+						lpTag.iframe.configuration.currentSkill = convInfo.skill;
+						updateAWA();
+					}
+
+					if (convInfo.conversationId != undefined && convInfo.conversationId != lpTag.iframe.configuration.conversationId) {
+						lpTag.iframe.configuration.conversationId = convInfo.conversationId;
+						updateAWA();
+					}
+				}
+			};
+
+            if (lpTag.iframe.configuration.jsllBound == false) {
+                lpTag.events.bind({
+                    eventName: 'conversationInfo',
+                    appName: 'lpUnifiedWindow',
+                    func: lpTag.external.adobeAnalytics.checkAgent
+                });
+            }
+		};
+
+		var receiveMessage = function receiveMessage(msg) {
+			if (msg.origin != 'https://va.idp.liveperson.net' && msg.origin != 'https://lpcdn.lpsnmedia.net' && msg.origin != 'https://va.msg.liveperson.net') {
+				switch (msg.data.action) {
+					case 'init':
+						break;
+
+					case 'Checkout':
+						lpTag.sdes = lpTag.sdes||[];
+						lpTag.sdes.push({
+							"type": "purchase",
+							"total": msg.data.OrderTotal,
+							"orderId": msg.data.OrderId,
+							"currency": msg.data.CurrencyCode
+						});
+						break;
+
+					case 'Topic':
+						lpTag.sdes = lpTag.sdes||[];
+						lpTag.sdes.push({
+							"type": "lead",
+							"lead": {"topic": msg.data.Topic}
+						});
+						break;
+
+					case 'Service':
+						lpTag.sdes = lpTag.sdes||[];
+						lpTag.sdes.push({
+							"type": "service",
+							"service": {"topic": msg.data.Service}
+						});
+						break;
+
+					case 'Congrats':
+						lpTag.sdes = lpTag.sdes||[];
+						lpTag.sdes.push({
+							"type": "purchase",
+							"total": msg.data.OrderTotal,
+							"orderId": msg.data.OrderId,
+							"currency": msg.data.CurrencyCode
+						});
+						break;
+
+					case 'Cart':
+						lpTag.sdes = lpTag.sdes||[];
+						lpTag.sdes.push({
+							"type": "cart",
+							"total": msg.data.Total,
+							"currency": msg.data.CurrencyCode
+						});
+						break;
+
+					case 'parentsize':
+						if (msg.data.Width && msg.data.Height) {
+
+							lpTag.iframe.configuration.parentHeight = msg.data.Height;
+					
+							if (document.getElementsByClassName('lpc_slider')[0] && document.getElementsByClassName('lpc_slider')[0].style.display == 'block') {
+								lpTag.iframe.configuration.parentWidth = 800;
+							} else if (lpTag.iframe.configuration.parentWidth == undefined || lpTag.iframe.configuration.parentWidth > 400) {
+								lpTag.iframe.configuration.parentWidth = 400;
+							}
+
+							if (lpTag.iframe.configuration.windowState == 'maximized' && lpTag.iframe.configuration.windowInit) {
+								if (lpTag.iframe.configuration.resizing == false || lpTag.iframe.configuration.resizing == undefined) {
+									lpTag.iframe.configuration.resizing = true;
+
+									setTimeout(function() {
+                                        windowChangeState('maximize');
+
+										lpTag.iframe.configuration.resizing = false;
+									}, 250);
+								}
+							}
+						}
+						
+						break;
+					
+					case 'open':
+						openWindow(msg.data.ButtonId);
+
+						if (lpTag.iframe.configuration.lpcurl) {
+							lpTag.sdes = lpTag.sdes||[];
+							lpTag.sdes.push({
+								"type": "lead",
+								"lead": {"leadId": lpTag.iframe.configuration.lpcurl}
+							});
+						}
+
+						break;
+
+					default:
+						break;
+				}
+
+				switch (msg.data.invite) {
+					case 'accepted':
+						var invite = document.querySelectorAll('button[data-lp-event=\'click\']')[0];
+
+						if (invite) {
+							invite.click();
+
+							if (lpTag.iframe.configuration.lpcurl) {
+								lpTag.sdes = lpTag.sdes||[];
+								lpTag.sdes.push({
+									"type": "lead",
+									"lead": {"leadId": lpTag.iframe.configuration.lpcurl}
+								});
+							}
+						}
+						break;
+					
+					case 'declined':
+						var closeButton = document.querySelectorAll('button[data-lp-event=\'close\']')[0];
+
+						if (closeButton) {
+							closeButton.click();
+						}
+						break;
+				}
+
+				if (msg.data.lpcurl) {
+					lpTag.iframe.configuration.lpcurl = msg.data.lpcurl;
+
+					if (lpTag.iframe.configuration.invite) {
+						inviteCheck();
+					}
+				}
+
+				if (msg.data.lppagename) {
+					lpTag.iframe.configuration.lppagename = msg.data.lppagename;
+
+					var config = {
+						autoCapture: {
+							lineage: true
+						},
+						coreData: {
+							appId: "UniStore",
+							pageName: lpTag.iframe.configuration.lppagename
+						}
+					};
+
+					if (awa) {
+						awa.init(config);
+					}
+
+					if (lpTag.iframe.configuration.invite) {
+						inviteCheck();
+					}
+				}
+			}
+		};
+
+		var sendMessage = function sendMessage(msg) {
+			window.parent.postMessage(msg, '*');
+		};
+		
+		window.addEventListener('message', receiveMessage, false);
+
+		var windowChangeState = function windowChangeState(state) {
+			switch (state) {
+				case 'minimize':
+                    if (lpTag.iframe.configuration.windowState != 'minimized') {
+                        var windowHeight;
+                        var windowWidth;
+
+                        if (lpTag.iframe.configuration.mobileDevice) {
+                            windowHeight = 0 + 'px';
+                            windowWidth = 0 + 'px';
+                        } else {
+                            windowHeight = 37 + 'px';
+                            windowWidth = 400 + 'px';
+                        }
+                    
+                        sendMessage({window:'minimized', height: windowHeight, width: windowWidth});
+                        lpTag.iframe.configuration.windowState = 'minimized';
+                    }
+
+					break;
+
+                case 'maximize':
+                    var windowHeight;
+                    var windowWidth;
+
+                    if (lpTag.iframe.configuration.mobileDevice) {
+                        if (lpTag.iframe.configuration.parentHeight == undefined || lpTag.iframe.configuration.parentWidth == undefined) {
+                            windowHeight = '100vh';
+                            windowWidth = '100vw';
+                        } else {
+                            windowHeight = lpTag.iframe.configuration.parentHeight;
+                            windowWidth = lpTag.iframe.configuration.parentWidth;
+                        }
+
+                        sendMessage({window:'maximized', height: windowHeight, width: windowWidth});
+                    } else {
+                        if (lpTag.iframe.configuration.parentHeight == undefined || lpTag.iframe.configuration.parentHeight > 600) {
+                            windowHeight = 600;
+                        } else if (lpTag.iframe.configuration.parentHeight < 600) {
+                            windowHeight = lpTag.iframe.configuration.parentHeight - 35;
+                        } else {
+                            windowHeight = lpTag.iframe.configuration.parentHeight;
+                        }
+                        
+                        if (lpTag.iframe.configuration.parentWidth == undefined || lpTag.iframe.configuration.parentWidth < 400) {
+                            windowWidth = 400;
+                        } else {
+                            windowWidth = lpTag.iframe.configuration.parentWidth;
+                        }
+
+						sendMessage({window:'maximized', height: windowHeight + 'px', width: windowWidth + 'px', mobile: 'false'});
+                    }
+                    
+                    lpTag.iframe.configuration.windowState = 'maximized';
+                    
+                    break;
+                
+                case 'closed':
+				    sendMessage({window:'closed', height:'0px', width:'0px'});	
+                    lpTag.iframe.configuration.windowState = 'closed';
+					lpTag.iframe.configuration.windowInit = false;
+
+                    break;
+			
+				default:
+
+					break;
+			}
+		}
+
+		var windowWatcher = function windowWatcher() {
+			if (!lpTag.iframe.configuration.windowInit) {
+				const maximizeButton = document.getElementsByClassName('lp_maximized')[0];
+
+				const config = {subtree: false, attributes: true};
+
+				let maximizeObserver = new MutationObserver(function(mutationRecords) {
+					mutationRecords.forEach(function(item) {
+
+						var sliderStatus;
+
+						if (item.target.className && item.target.className.search('lp_slider_open') != -1) {
+                            lpTag.iframe.configuration.parentWidth = 800;
+							sliderStatus = 'open';
+
+                            windowChangeState('maximize');
+
+                            var checkBox = document.getElementById("checkboxVideo");
+                            var inviteText = document.getElementsByClassName('lp_cb_invitation_text')[0];
+                            if ((typeof inviteText !== 'undefined') && (inviteText !== null)) {
+								inviteText.removeAttribute('role');
+								inviteText.setAttribute('tabindex', 0);
+
+								if (inviteText && !checkBox ) {
+									inviteText.innerHTML = "I have invited you to a video call. You must be 13 years or older. To start, please select Accept.  <br><br>Microsoft will not record or store the video content of this conversation. To learn more about Microsoft's privacy practices please click <a href='http://go.microsoft.com/fwlink/?LinkID=267510&clcid=0x409' target='_blank' aria-label='Privacy Policy'>here</a>. <br><br>";
+									
+									var submitButton = document.getElementsByClassName('lp_cb_button lp_cb_button_accept');
+									submitButton[0].disabled = true;
+
+									var myDiv = document.createElement("div");
+									myDiv.setAttribute("class", "checkbox_video");
+									
+									var checkbox= document.createElement("INPUT");
+									checkbox.type = "checkbox";
+									checkbox.id = 'checkboxVideo';
+									checkbox.onchange = function () {
+										disableButton();
+									};
+									
+									var label = document.createElement('label');
+									label.setAttribute('style', 'color: black; padding-left: 0.9em');
+									label.appendChild(document.createTextNode('I am 13 years or older'));
+									label.setAttribute('for', 'checkboxVideo');
+									
+									myDiv.appendChild(checkbox);
+									myDiv.appendChild(label);
+
+									inviteText.parentNode.insertBefore(myDiv, inviteText.nextSibling);
+									var videoButtons =  document.getElementsByClassName("lp_cb_offer")[0];
+									
+									videoButtons.childNodes.forEach(function(button) {
+										button.onclick = function() {
+											deleteCheckBox(); 
+										};
+									});
+
+									inviteText.focus();
+								}
+							}
+                        } else {
+							sliderStatus = 'closed';
+						}
+
+						if (item.target.style) {
+							if (item.target.style['display'] == 'block' && sliderStatus == 'open') {
+                                lpTag.iframe.configuration.parentWidth = 800;
+								windowChangeState('maximize');
+							} else if (item.target.style['display'] == 'block' && sliderStatus == 'closed') {
+                                if (lpTag.iframe.configuration.parentWidth == 800) {
+                                    lpTag.iframe.configuration.parentWidth = 400;
+                                }
+								windowChangeState('maximize');
+							} else {
+								windowChangeState('minimize');
+							}
+						}
+					});
+				});
+
+				maximizeObserver.observe(maximizeButton, config);
+
+				lpTag.iframe.configuration.windowInit = true;
+			}
+		}
+
+        function disableButton() {
+            var checkBox = document.getElementById("checkboxVideo");
+            var submitButton = document.getElementsByClassName('lp_cb_button lp_cb_button_accept');
+            if (checkBox.checked) {
+                submitButton[0].disabled = false;
+            } else {
+                submitButton[0].disabled = true;
+            }
+        }
+
+        function deleteCheckBox() {
+            var checkBox = document.getElementsByClassName("checkbox_video")[0];
+            checkBox.setAttribute('style', 'visibility: hidden')
+        }
+
+		var openWindow = function openWindow(ButtonId) {
+			if (lpTag.Engagements) {
+				if (ButtonId) {
+					document.getElementById(ButtonId).firstElementChild.firstElementChild.click();
+					windowChangeState('maximize');
+
+					lpTag.iframe.buttonClicked = true;
+				} else {
+					lpButton = document.getElementsByClassName('LPMcontainer')[0];
+
+					if (lpButton) {
+						lpButton.firstChild.click();
+						windowChangeState('maximize');
+					} else {
+						sendMessage({button:'failed',msg:'no button found'});
+					}
+
+					lpTag.iframe.buttonClicked = true;
+				}
+			} else {
+				window.lpTag.events.bind('LP_OFFERS', 'OFFER_DISPLAY', function(e) {
+					lpTag.Engagements = [];
+					lpTag.Engagements.push(e);
+
+					if (e.engagementType === 5 && lpTag.iframe.buttonClicked === undefined) {
+						var lpButton;
+						lpTag.iframe.buttonClicked = true;
+						
+						setTimeout(function() {
+							lpButton = document.getElementsByClassName('LPMcontainer')[0];
+							
+							if (lpButton) {
+								engagement = lpButton;
+							}
+							
+							engagement.firstChild.click();
+						}, 1000);
+					}
+				});
+
+			}
+		}
+
+		var inviteCheck = function() {
+			var showInvite = false;
+			
+			var targetURLS = {
+				'store-sales-en-sg': [
+					'https://www.microsoft.com/en-sg/store/b/surface',
+					'https://www.microsoft.com/en-sg/p/surface',
+					'https://www.microsoft.com/en-sg/store/b/xbox',
+					'https://www.microsoft.com/en-sg/store/d/xbox',
+					'https://www.microsoft.com/en-sg/p/xbox',
+					'https://www.microsoft.com/en-sg/p/office',
+					'https://www.microsoft.com/en-sg/store/cart',
+					'https://www.microsoft.com/en-sg/store/buy',
+					'https://www.microsoft.com/en-sg/microsoft-365/p/microsoft-365-family',
+					'https://www.microsoft.com/en-sg/microsoft-365/p/microsoft-365-personal',
+					'https://www.microsoft.com/en-sg/microsoft-365/p/office-home-business-2019',
+					'https://www.microsoft.com/en-sg/microsoft-365/p/office-home-student-2019',
+					'https://www.microsoft.com/en-sg/store/collections/surface',
+					'https://www.microsoft.com/en-sg/store/collections/xbox'
+				],
+				'store-sales-en-ca': [
+					'https://www.microsoft.com/en-ca/store/b/surface',
+					'https://www.microsoft.com/en-ca/p/surface',
+					'https://www.microsoft.com/en-ca/store/b/xbox',
+					'https://www.microsoft.com/en-ca/store/d/xbox',
+					'https://www.microsoft.com/en-ca/p/xbox',
+					'https://www.microsoft.com/en-ca/p/office',
+					'https://www.microsoft.com/en-ca/store/cart',
+					'https://www.microsoft.com/en-ca/store/buy',
+					'https://www.microsoft.com/en-ca/microsoft-365/p/microsoft-365-family',
+					'https://www.microsoft.com/en-ca/microsoft-365/p/microsoft-365-personal',
+					'https://www.microsoft.com/en-ca/microsoft-365/p/office-home-business-2019',
+					'https://www.microsoft.com/en-ca/microsoft-365/p/office-home-student-2019',
+					'https://www.microsoft.com/en-ca/store/collections/surface',
+					'https://www.microsoft.com/en-ca/store/collections/xbox'
+				],
+				'store-sales-en-ie': [
+					'https://www.microsoft.com/en-ie/store/b/surface',
+					'https://www.microsoft.com/en-ie/p/surface',
+					'https://www.microsoft.com/en-ie/store/b/xbox',
+					'https://www.microsoft.com/en-ie/store/d/xbox',
+					'https://www.microsoft.com/en-ie/p/xbox',
+					'https://www.microsoft.com/en-ie/p/office',
+					'https://www.microsoft.com/en-ie/store/cart',
+					'https://www.microsoft.com/en-ie/store/buy',
+					'https://www.microsoft.com/en-ie/microsoft-365/p/microsoft-365-family',
+					'https://www.microsoft.com/en-ie/microsoft-365/p/microsoft-365-personal',
+					'https://www.microsoft.com/en-ie/microsoft-365/p/office-home-business-2019',
+					'https://www.microsoft.com/en-ie/microsoft-365/p/office-home-student-2019',
+					'https://www.microsoft.com/en-ie/store/collections/surface',
+					'https://www.microsoft.com/en-ie/store/collections/xbox'
+				],
+				'store-sales-en-gb': [
+					'https://www.microsoft.com/en-gb/store/b/surface',
+					'https://www.microsoft.com/en-gb/p/surface',
+					'https://www.microsoft.com/en-gb/store/b/xbox',
+					'https://www.microsoft.com/en-gb/store/d/xbox',
+					'https://www.microsoft.com/en-gb/p/xbox',
+					'https://www.microsoft.com/en-gb/p/office',
+					'https://www.microsoft.com/en-gb/store/cart',
+					'https://www.microsoft.com/en-gb/store/buy',
+					'https://www.microsoft.com/en-gb/microsoft-365/p/microsoft-365-family',
+					'https://www.microsoft.com/en-gb/microsoft-365/p/microsoft-365-personal',
+					'https://www.microsoft.com/en-gb/microsoft-365/p/office-home-business-2019',
+					'https://www.microsoft.com/en-gb/microsoft-365/p/office-home-student-2019',
+					'https://www.microsoft.com/en-gb/store/collections/surface',
+					'https://www.microsoft.com/en-gb/store/collections/xbox'
+				],
+				'store-sales-en-us': [
+					'https://www.microsoft.com/en-us/store/b/surface',
+					'https://www.microsoft.com/en-us/p/surface',
+					'https://www.microsoft.com/en-us/store/b/xbox',
+					'https://www.microsoft.com/en-us/store/d/xbox',
+					'https://www.microsoft.com/en-us/p/xbox',
+					'https://www.microsoft.com/en-us/p/office',
+					'https://www.microsoft.com/en-us/store/cart',
+					'https://www.microsoft.com/en-us/store/buy',
+					'https://www.microsoft.com/en-us/microsoft-365/p/microsoft-365-family',
+					'https://www.microsoft.com/en-us/microsoft-365/p/microsoft-365-personal',
+					'https://www.microsoft.com/en-us/microsoft-365/p/office-home-business-2019',
+					'https://www.microsoft.com/en-us/microsoft-365/p/office-home-student-2019',
+					'https://www.microsoft.com/en-us/store/collections/surface',
+					'https://www.microsoft.com/en-us/store/collections/xbox',
+					'https://publish.adobeprod.microsoft.com/content/microsoft/en-us/store/category/surface',
+					'https://publish.adobeprod.microsoft.com/content/microsoft/en-us/store/category/xbox', 
+					'https://sites-author.adobeprod.microsoft.com/content/microsoft/en-us/store/category/surface', 
+					'https://sites-author.adobeprod.microsoft.com/content/microsoft/en-us/store/category/xbox', 
+					'https://publish.adobeprod.microsoft.com/content/microsoft/en-us/store/pdp/premium/'
+				],
+				'store-sales-en-au': [
+					'https://www.microsoft.com/en-au/store/b/surface',
+					'https://www.microsoft.com/en-au/p/surface',
+					'https://www.microsoft.com/en-au/store/b/xbox',
+					'https://www.microsoft.com/en-au/store/d/xbox',
+					'https://www.microsoft.com/en-au/p/xbox',
+					'https://www.microsoft.com/en-au/p/office',
+					'https://www.microsoft.com/en-au/store/cart',
+					'https://www.microsoft.com/en-au/store/buy',
+					'https://www.microsoft.com/en-au/microsoft-365/p/microsoft-365-family',
+					'https://www.microsoft.com/en-au/microsoft-365/p/microsoft-365-personal',
+					'https://www.microsoft.com/en-au/microsoft-365/p/office-home-business-2019',
+					'https://www.microsoft.com/en-au/microsoft-365/p/office-home-student-2019',
+					'https://www.microsoft.com/en-au/store/collections/surface',
+					'https://www.microsoft.com/en-au/store/collections/xbox'
+				],
+				'store-sales-de-de': [
+					'https://www.microsoft.com/de-de/store/b/surface',
+					'https://www.microsoft.com/de-de/p/surface',
+					'https://www.microsoft.com/de-de/store/b/xbox',
+					'https://www.microsoft.com/de-de/store/d/xbox',
+					'https://www.microsoft.com/de-de/p/xbox',
+					'https://www.microsoft.com/de-de/p/office',
+					'https://www.microsoft.com/de-de/store/cart',
+					'https://www.microsoft.com/de-de/store/buy',
+					'https://www.microsoft.com/de-de/microsoft-365/p/microsoft-365-family',
+					'https://www.microsoft.com/de-de/microsoft-365/p/microsoft-365-personal',
+					'https://www.microsoft.com/de-de/microsoft-365/p/office-home-business-2019',
+					'https://www.microsoft.com/de-de/microsoft-365/p/office-home-student-2019',
+					'https://www.microsoft.com/de-de/store/collections/surface',
+					'https://www.microsoft.com/de-de/store/collections/xbox'
+				],
+				'store-sales-de-ch': [
+					'https://www.microsoft.com/de-ch/store/b/surface',
+					'https://www.microsoft.com/de-ch/p/surface',
+					'https://www.microsoft.com/de-ch/store/b/xbox',
+					'https://www.microsoft.com/de-ch/store/d/xbox',
+					'https://www.microsoft.com/de-ch/p/xbox',
+					'https://www.microsoft.com/de-ch/p/office',
+					'https://www.microsoft.com/de-ch/store/cart',
+					'https://www.microsoft.com/de-ch/store/buy',
+					'https://www.microsoft.com/de-ch/microsoft-365/p/microsoft-365-family',
+					'https://www.microsoft.com/de-ch/microsoft-365/p/microsoft-365-personal',
+					'https://www.microsoft.com/de-ch/microsoft-365/p/office-home-business-2019',
+					'https://www.microsoft.com/de-ch/microsoft-365/p/office-home-student-2019',
+					'https://www.microsoft.com/de-ch/store/collections/surface'
+				],
+				'store-sales-es-es': [
+					'https://www.microsoft.com/es-es/store/b/surface',
+					'https://www.microsoft.com/es-es/p/surface',
+					'https://www.microsoft.com/es-es/store/b/xbox',
+					'https://www.microsoft.com/es-es/store/d/xbox',
+					'https://www.microsoft.com/es-es/p/xbox',
+					'https://www.microsoft.com/es-es/p/office',
+					'https://www.microsoft.com/es-es/store/cart',
+					'https://www.microsoft.com/es-es/store/buy',
+					'https://www.microsoft.com/es-es/microsoft-365/p/microsoft-365-family',
+					'https://www.microsoft.com/es-es/microsoft-365/p/microsoft-365-personal',
+					'https://www.microsoft.com/es-es/microsoft-365/p/office-home-business-2019',
+					'https://www.microsoft.com/es-es/microsoft-365/p/office-home-student-2019',
+					'https://www.microsoft.com/es-es/store/collections/surface'
+				],
+				'store-sales-es-mx': [
+					'https://www.microsoft.com/es-mx/store/b/xbox',
+					'https://www.microsoft.com/es-mx/store/d/xbox',
+					'https://www.microsoft.com/es-mx/p/xbox',
+					'https://www.microsoft.com/es-mx/p/office',
+					'https://www.microsoft.com/es-mx/store/cart',
+					'https://www.microsoft.com/es-mx/store/buy',
+					'https://www.microsoft.com/es-mx/microsoft-365/p/microsoft-365-family',
+					'https://www.microsoft.com/es-mx/microsoft-365/p/microsoft-365-personal',
+					'https://www.microsoft.com/es-mx/microsoft-365/p/office-home-business-2019',
+					'https://www.microsoft.com/es-mx/microsoft-365/p/office-home-student-2019'
+				],
+				'store-sales-fr-ca': [
+					'https://www.microsoft.com/fr-ca/store/b/surface',
+					'https://www.microsoft.com/fr-ca/p/surface',
+					'https://www.microsoft.com/fr-ca/store/b/xbox',
+					'https://www.microsoft.com/fr-ca/store/d/xbox',
+					'https://www.microsoft.com/fr-ca/p/xbox',
+					'https://www.microsoft.com/fr-ca/p/office',
+					'https://www.microsoft.com/fr-ca/store/cart',
+					'https://www.microsoft.com/fr-ca/store/buy',
+					'https://www.microsoft.com/fr-ca/microsoft-365/p/microsoft-365-family',
+					'https://www.microsoft.com/fr-ca/microsoft-365/p/microsoft-365-personal',
+					'https://www.microsoft.com/fr-ca/microsoft-365/p/office-home-business-2019',
+					'https://www.microsoft.com/fr-ca/microsoft-365/p/office-home-student-2019',
+					'https://www.microsoft.com/fr-ca/store/collections/surface',
+					'https://www.microsoft.com/fr-ca/store/collections/xbox'
+				],
+				'store-sales-fr-ch': [
+					'https://www.microsoft.com/fr-ch/store/b/surface',
+					'https://www.microsoft.com/fr-ch/p/surface',
+					'https://www.microsoft.com/fr-ch/store/b/xbox',
+					'https://www.microsoft.com/fr-ch/store/d/xbox',
+					'https://www.microsoft.com/fr-ch/p/xbox',
+					'https://www.microsoft.com/fr-ch/p/office',
+					'https://www.microsoft.com/fr-ch/store/cart',
+					'https://www.microsoft.com/fr-ch/store/buy',
+					'https://www.microsoft.com/fr-ch/microsoft-365/p/microsoft-365-family',
+					'https://www.microsoft.com/fr-ch/microsoft-365/p/microsoft-365-personal',
+					'https://www.microsoft.com/fr-ch/microsoft-365/p/office-home-business-2019',
+					'https://www.microsoft.com/fr-ch/microsoft-365/p/office-home-student-2019',
+					'https://www.microsoft.com/fr-ch/store/collections/surface',
+					'https://www.microsoft.com/fr-ch/store/collections/xbox'
+				],
+				'store-sales-fr-fr': [
+					'https://www.microsoft.com/fr-fr/store/b/surface',
+					'https://www.microsoft.com/fr-fr/p/surface',
+					'https://www.microsoft.com/fr-fr/store/b/xbox',
+					'https://www.microsoft.com/fr-fr/store/d/xbox',
+					'https://www.microsoft.com/fr-fr/p/xbox',
+					'https://www.microsoft.com/fr-fr/p/office',
+					'https://www.microsoft.com/fr-fr/store/cart',
+					'https://www.microsoft.com/fr-fr/store/buy',
+					'https://www.microsoft.com/fr-fr/microsoft-365/p/microsoft-365-family',
+					'https://www.microsoft.com/fr-fr/microsoft-365/p/microsoft-365-personal',
+					'https://www.microsoft.com/fr-fr/microsoft-365/p/office-home-business-2019',
+					'https://www.microsoft.com/fr-fr/microsoft-365/p/office-home-student-2019',
+					'https://www.microsoft.com/fr-fr/store/collections/surface',
+					'https://www.microsoft.com/fr-fr/store/collections/xbox'
+				],
+				'store-sales-nl-nl': [
+					'https://www.microsoft.com/nl-nl/store/b/surface',
+					'https://www.microsoft.com/nl-nl/p/surface',
+					'https://www.microsoft.com/nl-nl/store/b/xbox',
+					'https://www.microsoft.com/nl-nl/store/d/xbox',
+					'https://www.microsoft.com/nl-nl/p/xbox',
+					'https://www.microsoft.com/nl-nl/p/office',
+					'https://www.microsoft.com/nl-nl/store/cart',
+					'https://www.microsoft.com/nl-nl/store/buy',
+					'https://www.microsoft.com/nl-nl/microsoft-365/p/microsoft-365-family',
+					'https://www.microsoft.com/nl-nl/microsoft-365/p/microsoft-365-personal',
+					'https://www.microsoft.com/nl-nl/microsoft-365/p/office-home-business-2019',
+					'https://www.microsoft.com/nl-nl/microsoft-365/p/office-home-student-2019',
+					'https://www.microsoft.com/nl-nl/store/collections/surface',
+					'https://www.microsoft.com/nl-nl/store/collections/xbox'
+				],
+				'store-sales-pt-br': [
+					'https://www.microsoft.com/pt-br/store/b/xbox',
+					'https://www.microsoft.com/pt-br/store/d/xbox',
+					'https://www.microsoft.com/pt-br/p/xbox',
+					'https://www.microsoft.com/pt-br/p/office',
+					'https://www.microsoft.com/pt-br/store/cart',
+					'https://www.microsoft.com/pt-br/store/buy',
+					'https://www.microsoft.com/pt-br/microsoft-365/p/microsoft-365-family',
+					'https://www.microsoft.com/pt-br/microsoft-365/p/microsoft-365-personal',
+					'https://www.microsoft.com/pt-br/microsoft-365/p/office-home-business-2019',
+					'https://www.microsoft.com/pt-br/microsoft-365/p/office-home-student-2019'
+				],
+				'store-sales-sv-se': [
+					'https://www.microsoft.com/sv-se/store/b/surface',
+					'https://www.microsoft.com/sv-se/p/surface',
+					'https://www.microsoft.com/sv-se/store/b/xbox',
+					'https://www.microsoft.com/sv-se/store/d/xbox',
+					'https://www.microsoft.com/sv-se/p/xbox',
+					'https://www.microsoft.com/sv-se/p/office',
+					'https://www.microsoft.com/sv-se/store/cart',
+					'https://www.microsoft.com/sv-se/store/buy',
+					'https://www.microsoft.com/sv-se/microsoft-365/p/microsoft-365-family',
+					'https://www.microsoft.com/sv-se/microsoft-365/p/microsoft-365-personal',
+					'https://www.microsoft.com/sv-se/microsoft-365/p/office-home-business-2019',
+					'https://www.microsoft.com/sv-se/microsoft-365/p/office-home-student-2019',
+					'https://www.microsoft.com/sv-se/store/collections/surface',
+					'https://www.microsoft.com/sv-se/store/collections/xbox'
+				],
+				'store-sales-ja-jp': [
+					'https://www.microsoft.com/ja-jp/store/b/surface',
+					'https://www.microsoft.com/ja-jp/p/surface',
+					'https://www.microsoft.com/ja-jp/store/b/xbox',
+					'https://www.microsoft.com/ja-jp/store/d/xbox',
+					'https://www.microsoft.com/ja-jp/p/xbox',
+					'https://www.microsoft.com/ja-jp/p/office',
+					'https://www.microsoft.com/ja-jp/store/cart',
+					'https://www.microsoft.com/ja-jp/store/buy',
+					'https://www.microsoft.com/ja-jp/microsoft-365/p/microsoft-365-family',
+					'https://www.microsoft.com/ja-jp/microsoft-365/p/microsoft-365-personal',
+					'https://www.microsoft.com/ja-jp/microsoft-365/p/office-home-business-2019',
+					'https://www.microsoft.com/ja-jp/microsoft-365/p/office-home-student-2019',
+					'https://www.microsoft.com/ja-jp/store/collections/surface',
+					'https://www.microsoft.com/ja-jp/store/collections/xbox'
+				],
+				'store-sales-zh-cn': [
+					'https://www.microsoftstore.com.cn/surface',
+					'https://www.microsoftstore.com.cn/hardware/surface',
+					'https://www.microsoftstore.com.cn/hardware/accessories/surface',
+					'https://www.microsoftstore.com.cn/xbox',
+					'https://www.microsoftstore.com.cn/hardware/xbox',
+					'https://www.microsoftstore.com.cn/hardware/accessories/xbox',
+					'https://www.microsoftstore.com.cn/microsoft-365/microsoft-365',
+					'https://www.microsoftstore.com.cn/software/microsoft-365',
+					'https://www.microsoftstore.com.cn/cart',
+					'https://www.microsoftstore.com.cn/checkout',
+					'https://release.moscnuat.com'
+				],
+				'store-postsales-zh-cn': [
+					'https://www.microsoftstore.com.cn/surface',
+					'https://www.microsoftstore.com.cn/hardware/surface',
+					'https://www.microsoftstore.com.cn/hardware/accessories/surface',
+					'https://www.microsoftstore.com.cn/xbox',
+					'https://www.microsoftstore.com.cn/hardware/xbox',
+					'https://www.microsoftstore.com.cn/hardware/accessories/xbox',
+					'https://www.microsoftstore.com.cn/microsoft-365/microsoft-365',
+					'https://www.microsoftstore.com.cn/software/microsoft-365',
+					'https://www.microsoftstore.com.cn/cart',
+					'https://www.microsoftstore.com.cn/checkout',
+					'https://release.moscnuat.com'
+				]
+			};
+
+			if (targetURLS[lpTag.section]) {
+				targetURLS[lpTag.section].forEach(function(url) {
+					if (lpTag.iframe.configuration.lpcurl != undefined && lpTag.iframe.configuration.lpcurl.search(url) >= 0 && lpTag.iframe.configuration.lpcurl.length > 0) {
+						showInvite = true;
+					}
+				});
+			}
+			
+			if (showInvite) {
+				sendMessage({invite: 'displayed'});
+			}
+		}
+
+        var engagementFixCheck = function(lpButton, data) {
+            if (typeof engagementFix !== 'undefined') {
+                if (lpButton) {
+                    lpTag.iframe.lpReady = true;
+
+                    if ((lpTag.iframe.configuration.storageType != undefined) && (lpTag.Engagements != undefined)) {
+                        sendMessage({engagement:'buttonReady', name: data.engagementName});
+                        
+                        return true;
+                    } else {
+                        return false;
+                    }
+                } else {
+                    return false;
+                }
+            } else {
+                return false;
+            }
+        }
+
+        setTimeout(function() {
+            if (lpTag.taglets.lpSecureStorage.getStorageType()['https://lpcdn.lpsnmedia.net']['monitoringSDK'] == undefined) {
+                document.body.innerHTML = '<div style="position:absolute;width:90%;height:90%;opacity:1;z-index:100;background:#fff;text-align: center;font-size: 25px;"></div>';
+                sendMessage({engagement:'buttonNotReady'});
+                windowChangeState('closed');
+			} else if (!lpTag.iframe.windowOpened && !lpTag.iframe.buttonClicked && engagementFixCheck(lpTag.iframe.lpButton, lpTag.iframe.lpData)) {
+            }
+        }, 20000);
+
+		window.lpTag.events.bind('LP_OFFERS', 'OFFER_IMPRESSION', function(data) {
+			if (lpTag.taglets.lpSecureStorage && lpTag.iframe.configuration.storageType == undefined) {
+				lpTag.iframe.configuration.storageType = lpTag.taglets.lpSecureStorage.getStorageType()['https://lpcdn.lpsnmedia.net'].lpUnifiedWindow;
+            }
+
+			switch (data.engagementType) {
+				case 1:
+				if (lpTag.iframe.configuration.lpcurl) {
+					inviteCheck();
+				} else {
+					lpTag.iframe.configuration.invite = true;
+				}
+					
+                break;
+
+                case 5:
+				case 6:
+					lpTag.Engagements = [];
+					lpTag.Engagements.push(data);
+
+					var lpButton;
+
+					setTimeout(function() {
+						lpButton = document.getElementsByClassName('LPMcontainer')[0];
+						lpTag.iframe.lpButton = lpButton;
+						lpTag.iframe.lpData = data;
+						engagementFixCheck(lpButton, data);
+					}, 1000);
+
+					break;
+			
+				default:
+					break;
+			}
+		});
+
+		lpTag.events.bind('LPTAG', 'ON_STARTED', function(e) {
+			lpTag.iframe.configuration.mobileDevice = lpTag.unifiedWindow.DeviceDetector().isMobile();
+
+			lpTag.iframe.adobeAnalyticsLPBindingInit();
+			
+			if (lpTag.iframe.configuration.mobileDevice) {
+				document.getElementsByTagName('style')[0].innerHTML = document.getElementsByTagName('style')[0].innerHTML + ".lp_maximized {height: 100vh !important;width: 100vw !important;}";
+			} else {
+				document.getElementsByTagName('style')[0].innerHTML = document.getElementsByTagName('style')[0].innerHTML + ".lp_maximized {height: 600px !important;width: 400px !important;}";
+			}
+
+			if (typeof lpTag.iframe.lpReady === 'undefined') {
+				sendMessage({window:'ready'});
+			} else {
+				windowChangeState('closed');
+			}
+		});
+
+		window.lpTag.events.bind('lpUnifiedWindow', 'state', function(data) {
+			var currentState = data.state;
+
+			var lpClose = document.getElementsByClassName('lp_close');
+
+			for (i=0; lpClose.length > i; i++) {
+				lpClose[i].onclick = function(){
+
+					window.setTimeout(function(){
+						var lpWindowVisible = document.getElementById('lpChat');
+
+						if (lpWindowVisible === undefined || lpWindowVisible === null) {
+							windowChangeState('closed');
+						}
+					}, 500);
+
+				}
+			}
+
+			if (currentState == 'init') {
+				windowWatcher();
+
+				if (!lpTag.iframe.buttonClicked) {
+					sendMessage({window:'opened'});
+					lpTag.iframe.windowOpened = true;
+				}
+			} else if (currentState == 'closed') {
+				lpTag.iframe.buttonClicked = false;
+			}
+		});
+	</script><div id="lpChatService" style="display: none;"></div><div id="lpChatSales" style="display: none;"><div id="LPMcontainer-1623084339571-0" class="LPMcontainer LPMoverlay" style="margin: 1px; padding: 0px; border-style: solid; border-width: 0px; font-style: normal; font-weight: normal; font-variant: normal; list-style: outside none none; letter-spacing: normal; line-height: normal; text-decoration: none; vertical-align: baseline; white-space: normal; word-spacing: normal; background-repeat: repeat-x; background-position: left bottom; cursor: auto; display: block; position: relative; top: 0px; left: 0px;"><a data-lp-event="click" alt="Message Us" class="c-action-trigger c-glyph glyph-chat-bubbles" style="cursor:pointer;">Message Us</a></div></div>
+
+	<script src="./jsll-4.js" type="text/javascript"></script>
+
+<style type="text/css">.lp_agent_image_area_wrapper{text-align: left !important;height: 100% !important;}</style><style type="text/css">.lp_header_text a{color: #0078D7 !important;}.lp_tooltip_notification {display: none !important;}</style><style type="text/css">.lp_view_title{color: black !important;}</style><style type="text/css">.lp_cancel_button{color: #000 !important; background: #fff !important;}#lpChatButton a:focus,#lpChat a:focus, #lpChat button:focus, #lpChat input:focus, #lpChat textarea:focus, #lpChat select:focus, #lpChat .lp_textarea_field:focus, .lp_confirm_button:focus, .lp_cancel_button:focus, .lp_action_item:focus, .lp_dialog_input:focus {outline: #505050 dashed 1px !important;}</style><style type="text/css">.LPMcontainer {display: none !important;}</style><style type="text/css">.lp_desktop #lpChat > .lp_maximized {max-height: 100% !important};</style><iframe tabindex="-1" aria-hidden="true" role="presentation" title="Intentionally blank" name="lpSS_27476829358" id="lpSS_27476829358" src="./storage.secure.min.html" style="width: 0px; height: 0px; position: absolute; top: -1000px; left: -1000px; display: none;"></iframe><script id="lpSS_42971100929" src="./storage.secure.min.js"></script><div id="messaging_agent_availability-1623084372233" style="position: fixed; z-index: 10400; top: 33%; left: 33%;"><div style="width: 360px;height: 235px;line-height:0;position: relative;border:none !important;background: url(&#39;https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWgeQ3?ver=3280.gif&#39;) !important;" class="chatContainer"><button aria-label="Need help? Chat now with Microsoft Sales" style="margin: 0px;padding: 0px;width: 360px;height: 235px;bottom: 0px;display: inline-block;position: absolute;cursor: pointer;outline-offset: -2px;border:none !important;background: none;" data-lp-event="click" id="chatEngagement"></button><button id="closeChat" aria-label="Click here to close the chat invite" style="margin: 0px;padding: 0px;width: 175px;height: 45px;bottom: 3px;display: inline-block;position: absolute;cursor: pointer;outline-offset: -2px;border:none !important;background: url(&#39;https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWgERn?ver=5972.gif&#39;) no-repeat !important;" data-lp-event="close"></button></div></div></body></html>

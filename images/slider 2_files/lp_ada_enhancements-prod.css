@@ -1,0 +1,1045 @@
+/* ADA CSS */
+body #lpChat .lp_dialog_container .lp_buttons_area .lp_confirm_button {
+	color: #000 !important;
+}
+
+#lpChat .lp_minimized .lp_notification_number {
+	margin-top: 2px !important;
+}
+
+.lp-json-pollock-layout.lp-json-pollock-layout-vertical {
+	border-radius: 15px;
+}
+
+#lpChat .lp_csat_rater_star {
+	color: #fff !important;
+}
+
+.lp_mobile #lpChat>.lp_maximized, .lp_tablet #lpChat>.lp_maximized {
+	opacity: 1 !important;
+	width: 100vw !important;
+}
+
+.lp_desktop #lpChat > .lp_minimized {
+	width: 400px !important;
+}
+
+.lp_desktop #lpChat > .lp_maximized {
+	height: 600px !important;
+	width: 400px !important;
+	max-height: 95%;
+}
+
+[data-lp-point="lp_line_state"] {
+	left: -90px !important;
+}
+
+.lp_sender {
+	display: none !important;
+}
+
+.lp_chat_line_wrapper {
+	overflow: visible !important;
+	margin-bottom: 12px !important;
+	padding: 0px 10px 4px 24px !important;
+}
+
+[data-lp-point="headerText"] {
+	color: #fff !important;
+}
+
+.lp-json-pollock-element-text {
+	padding: 0 !important;
+}
+
+.lp-json-pollock-element-text {
+	padding: 12px !important;
+	border: none !important;
+	max-width: 80% !important;
+	background-color: #fff !important;
+	border-radius: 2px !important;
+	border-top: 2px solid #50e6ff !important;
+	box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.25) !important;
+}
+
+div.lp-json-pollock-element-text span {
+	color: #000 !important;
+}
+
+#lpChat .lp_main .lp_main_area .lp_location_bottom .lp_bottom_area {
+	padding-left: 24px !important;
+}
+
+[data-lp-point="chattingWithIcon"] {
+	display: none !important;
+}
+
+[data-lp-cust-id="transcript_bubble_visitor"] {
+	padding: 12px !important;
+	border: none !important;
+	max-width: 80% !important;
+	background-color: #D2D2D2 !important;
+	box-shadow: 0 3px 5px -3px rgba(0, 0, 0, 0.25) !important;
+	min-width: 60px;
+	margin: 0 auto !important;
+}
+
+[data-lp-cust-id="transcript_bubble_agent_text"],[data-lp-cust-id="transcript_bubble_visitor_text"] {
+	color: #000 !important;
+	line-height: 1.45em !important;
+}
+
+.lp_chat_arrow_border,.lp_chat_arrow {
+	display: none !important;
+}
+
+.lp_time {
+	color: #6e6e6e !important;
+}
+
+.lp_chat_line {
+	border-radius: 2px !important;
+}
+
+textarea.lpview_form_textarea.lp_expandable_textarea.lp_ltr {
+	color: #6e6e6e !important;
+}
+
+.lp_system {
+	background-color: #fff !important;
+	padding: 18px !important;
+}
+
+#lpChat img {
+	vertical-align: top !important;
+}
+
+.lp_desktop #lpChat>.lp_maximized>.lp_main {
+	top: 40px !important;
+}
+
+.lp-json-pollock-layout.lp-json-pollock-layout-vertical {
+	border: none !important;
+	background-color: transparent !important;
+}
+
+.lp-json-pollock-element-button button, .lp_cb_offer button {
+	color: #000 !important;
+	cursor: pointer;
+}
+
+.lp-json-pollock-element-button:hover,button.chips-item:hover, .lp_cb_offerhover {
+	transform: translateY(-2px) !important;
+	transition: all 0.15s ease !important;
+	box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.5) !important;
+}
+
+.lp-window-root button.chips-item:first-of-type {
+	margin-left: 14px !important;
+}
+
+.lp_confirm_button {
+	color: #000 !important;
+}
+
+.lp_cancel_button {
+	background-color: #e2e2e2 !important;
+	border: none !important;
+	border-radius: 2px !important;
+	box-shadow: 0 3px 5px -2px rgba(0, 0, 0, 0.25) !important;
+	min-width: 100px !important;
+	text-align: center !important;
+}
+
+.lp-window-root [data-lp-point="header"] {
+	min-height: 40px !important;
+	padding: 0px 15px !important;
+	background-color: #243a5e !important;
+	border: none !important;
+}
+
+[data-lp-cust-id="transcript_bubble_agent"] {
+	padding: 12px !important;
+	border: none !important;
+	max-width: 80% !important;
+	background-color: #fff !important;
+	border-radius: 2px !important;
+	border-top: 2px solid #50e6ff !important;
+	box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.25) !important;
+}
+
+.lp-window-root button.chips-item {
+	background-color: #50e6ff !important;
+	border: none !important;
+	border-radius: 2px !important;
+	box-shadow: 0 3px 5px -2px rgba(0, 0, 0, 0.25) !important;
+	min-width: 100px !important;
+	text-align: center !important;
+}
+
+.lp-window-root .stars button.chips-item {
+	background-color: transparent !important;
+	box-shadow: none !important;
+	min-width: auto !important
+}
+
+.lp-window-root .stars button.chips-item:hover {
+	transform: none !important;
+	box-shadow: none !important;
+}
+
+.lp-window-root .stars {
+	justify-content: left;
+}
+
+.lp-window-root .survey-popup {
+    position: absolute !important;
+    visibility: hidden;
+    top: 110px;
+    left: 30px !important;
+    width: 225px !important;
+    border-radius: 3px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background-color:#505050 !important;
+    color: #fff !important;
+    padding: 12px !important;
+    text-align: center !important;
+}
+
+.lp-window-root button.lp_ctooltip .lp_ctooltip_txt {
+    width: 140px !important;
+    height: auto !important;
+    border: 0 !important;
+    background-color: #505050 !important;
+    color: #fff !important;
+    font-size: 13px !important;
+    text-align: center !important;
+    border-radius:  3px !important;
+    padding: 12px 3px !important;
+}
+
+.lp-window-root .chips-row.stars {
+    text-align: center !important;
+    display: flex !important;
+}
+
+.lp-json-pollock-element-button {
+	border: none !important;
+	background-color: #50e6ff !important;
+	margin: 12px auto !important;
+	box-shadow: 0 3px 5px -2px rgba(0, 0, 0, 0.25) !important;
+	border-radius: 2px !important
+}
+
+.lp_confirm_button {
+	color: #fff !important;
+}
+
+.lp-json-pollock-element-text, .lp-json-pollock-element-text span {
+	background-color: transparent !important;
+}
+
+.lp-json-pollock-element-button button, .lp_cb_offer button {
+	background-color: transparent !important;
+}
+
+.lp_confirm_button {
+	background-color: #50e6ff !important;
+	border: none !important;
+	border-radius: 2px !important;
+	box-shadow: 0 3px 5px -2px rgba(0, 0, 0, 0.25) !important;
+	min-width: 100px !important;
+	text-align: center !important;
+}
+
+.lp_maximized.lpmx {
+	right: 0px !important;
+}
+
+div.lp-json-pollock-layout div.lp-json-pollock-element-text {
+	background-color: #fff !important;
+}
+
+#lpChatSalesOnDemand .LPMcontainer, #lpChatDynamics .LPMcontainer, #lpChatButton .LPMcontainer, #lpChatOffice .LPMcontainer, #lpPowerPlatform .LPMcontainer, #lpChatDynamics2 .LPMcontainer, #lpChatDynamics3 .LPMcontainer {
+	display: block !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-carousel-wrapper>.lp-json-pollock-layout-carousel-arrow {
+	opacity: 1 !important;
+}
+
+.lp-window-root .lp_cobrowse_invitation_widget .lp_cb_button {
+    color: #000 !important;
+    background-color: #50e6ff !important;
+    cursor: pointer;
+    font-size: 14px !important;
+    box-shadow: 0 3px 5px -2px rgba(0,0,0,.25) !important;
+}
+.lp-window-root .lp_cobrowse_invitation_widget .lp_cb_button:hover, .lp-window-root .lp_cobrowse_invitation_widget .lp_cb_button:focus {
+    transform: translateY(-2px) !important;
+    transition: all .15s ease !important;
+    box-shadow: 0 4px 10px -3px rgba(0,0,0,.5) !important;
+}
+
+/* Fix all dialog widths */
+div[data-lp-cust-id="transcript_bubble_rich_content"] {
+    width: 280px !important;
+}
+
+/* AI BOT CSS */
+/* Checkbox active zone fixes */
+.lp_rich_content_line .lp-json-pollock-element-checkbox-wrapper {
+    position: relative;
+}
+  
+div > .lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-form .lp-json-pollock-layout-sectionList .lp-json-pollock-layout-section .lp-json-pollock-layout-checklist>.lp-json-pollock-element-checkbox .lp-json-pollock-element-checkbox-wrapper .lp-json-pollock-element-checkbox-input::before {
+content: "";
+position: absolute;
+display: block;
+width: 100%;
+height: 100%;
+left: 0;
+right: 0;
+bottom: 0;
+top: 0;
+}
+
+div > .lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-form .lp-json-pollock-layout-sectionList .lp-json-pollock-layout-section .lp-json-pollock-layout-checklist>.lp-json-pollock-element-checkbox .lp-json-pollock-element-checkbox-wrapper .lp-json-pollock-element-checkbox-label {
+	padding-left: 20px;
+}
+
+/*fonts fixes*/
+
+body .lp_desktop #lpChat>.lp_maximized,
+.lp_desktop .lp-window-root .chips-wrapper .chips-row>.chips-item,
+body .lp_desktop .lp-window-root,
+.lp_desktop .lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-form>.lp-json-pollock-element-text,
+.lp_desktop .lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-element-text,
+.lp_desktop .lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-form .lp-json-pollock-layout-sectionList .lp-json-pollock-layout-section .lp-json-pollock-layout-checklist>.lp-json-pollock-element-checkbox .lp-json-pollock-element-checkbox-wrapper .lp-json-pollock-element-checkbox-label,
+.lp_desktop .lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-form .lp-json-pollock-layout-buttonList .lp-json-pollock-element-submit-button input[type=submit],
+.lp_desktop .lp-window-root .lp_chat_line_wrapper.lp_system .lp_chat_line .lp_title_text, .lp-window-root .lp_chat_line_wrapper.lp_system .lp_chat_line .lp_title_text * {
+	font-family: "Segoe LP", "Segoe UI", Arial, Helvetica, sans-serif !important;
+	font-size: 1em;
+	line-height: 1.35em;
+}
+
+/* Surface colors fixes */
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-vertical > .lp-json-pollock-layout-vertical + .lp-json-pollock-layout-horizontal {
+	display: flex!important;
+	padding: 0!important;
+	/* justify-content: space-between; */
+}
+
+/* Colors fixes for carousel */
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-vertical > .lp-json-pollock-layout-vertical + .lp-json-pollock-layout-horizontal > .lp-json-pollock-layout.lp-json-pollock-layout-vertical:first-child {
+	width: 49px !important;
+	min-width: 49px !important;
+	padding-top: 6px !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-vertical > .lp-json-pollock-layout-vertical + .lp-json-pollock-layout-horizontal > .lp-json-pollock-layout.lp-json-pollock-layout-vertical:first-child > .lp-json-pollock-element-text {
+	line-height: 0;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-vertical > .lp-json-pollock-layout-vertical + .lp-json-pollock-layout-horizontal > .lp-json-pollock-layout.lp-json-pollock-layout-vertical:first-child > .lp-json-pollock-element-text > span {
+	line-height: 13px;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-vertical > .lp-json-pollock-layout-vertical + .lp-json-pollock-layout-horizontal > .lp-json-pollock-layout-vertical:last-child {
+	width: auto !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-vertical > .lp-json-pollock-layout-vertical + .lp-json-pollock-layout-horizontal > .lp-json-pollock-layout-vertical:last-child > .lp-json-pollock-layout-horizontal > .lp-json-pollock-element-image {
+	width: auto !important;
+	width: 18px !important;
+	padding-top: 3px;
+	margin-right: 12px;
+	border-left: none !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-vertical > .lp-json-pollock-layout-vertical + .lp-json-pollock-layout-horizontal > .lp-json-pollock-layout-vertical:last-child > .lp-json-pollock-layout-horizontal > .lp-json-pollock-element-image:last-child {
+	margin-right: 0;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-carousel .lp-json-pollock-layout-vertical > .lp-json-pollock-layout-vertical > .lp-json-pollock-layout-horizontal {
+	border-bottom: 1px solid #d4d4d5 !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper.lpc_message-area .lp_rich_content_line  > div > div > div > div.lp-json-pollock-layout.lp-json-pollock-layout-horizontal.lpc_card.lpc_card_horizontal.lpc_desktop > div:nth-child(1) {
+	width: 49px!important;
+	min-width: 49px !important;
+	padding-top: 6px!important;
+}
+
+.lp-window-root .lp_chat_line_wrapper.lpc_message-area .lp_rich_content_line  > div > div > div > div.lp-json-pollock-layout.lp-json-pollock-layout-horizontal.lpc_card.lpc_card_horizontal.lpc_desktop > div:nth-child(1) .lp-json-pollock-element-text{
+	line-height: 0!important;
+}
+
+.lp-window-root .lp_chat_line_wrapper.lpc_message-area .lp_rich_content_line  > div > div > div > div.lp-json-pollock-layout.lp-json-pollock-layout-horizontal.lpc_card.lpc_card_horizontal.lpc_desktop > div:nth-child(1) .lp-json-pollock-element-text span{
+	line-height: 14px!important;
+}
+
+.lp_rich_content_line > div > div > div > div.lp-json-pollock-layout.lp-json-pollock-layout-horizontal.lpc_card.lpc_card_horizontal.lpc_desktop > div:nth-child(2) > div > div {
+	border: none;
+	margin-right: 12px;
+	padding-top: 3px;
+	width: auto!important;
+}
+
+.lp_rich_content_line > div > div > div > div.lp-json-pollock-layout.lp-json-pollock-layout-horizontal.lpc_card.lpc_card_horizontal.lpc_desktop > div:nth-child(2) > div > div:last-child {
+padding-right: 0;
+}
+
+.lp_rich_content_line > div > div > div > div.lp-json-pollock-layout.lp-json-pollock-layout-horizontal.lpc_card.lpc_card_horizontal.lpc_desktop > div:nth-child(2) > div > div > img {
+height: 18px;
+width: 18px;
+}
+
+.lp-window-root .lp_chat_line_wrapper.lpc_message-area .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout .lp-json-pollock-layout.lp-json-pollock-layout-vertical:nth-child(even) .lp-json-pollock-layout-horizontal {
+/*border-left: 1px solid #d6d6d6 !important;*/
+display: flex;
+padding: 0 0 0 12px!important;
+/*padding: 0!important;*/
+}
+
+/* card styles overrides */
+.lp-window-root .lp_chat_line_wrapper.lpc_message-area .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout .lp-json-pollock-layout:not(:last-child) {
+background: #fff !important;
+border-radius: 0;
+}
+
+.lp-window-root .lp_chat_line_wrapper.lpc_message-area .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout .lp-json-pollock-layout .lp-json-pollock-element-text {
+padding: 5px 10px !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper.lpc_message-area .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout .lp-json-pollock-layout .lp-json-pollock-element-text:nth-child(even) {
+border-left:  1px solid #d6d6d6 !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper.lpc_message-area .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout .lp-json-pollock-layout.lp-json-pollock-layout-vertical:first-child .lp-json-pollock-element-text span {
+font-weight: bold;
+}
+
+.lp-window-root .lp_chat_line_wrapper.lpc_message-area .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout .lp-json-pollock-element-text:nth-child(even) span {
+color: #7F7F7F !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper.lpc_message-area .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout .lp-json-pollock-element-text:nth-child(even) h3 {
+color: #737373 !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-carousel-wrapper .lp-json-pollock-layout-carousel {
+display: flex;
+}
+
+.lp-window-root .lp_chat_line_wrapper.lpc_message-area .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout .lp-json-pollock-element-text span[style*="color:#fe0002;"] {
+color: #fe0002 !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper.lpc_message-area .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout .lp-json-pollock-element-text span[style*="color:#008000;"] {
+color:#008000 !important;
+}
+
+.lp-json-pollock-layout.lp-json-pollock-layout-horizontal.lpc_card.lpc_card_horizontal.lpc_desktop, .lp-json-pollock-layout.lp-json-pollock-layout-horizontal.lpc_card.lpc_card_horizontal.lpc_mobile {
+    background: #fff!important;
+}
+
+.lp-json-pollock .lp-json-pollock-layout.lp-json-pollock-layout-vertical.lpc_card.lpc_card_vertical.lpc_desktop .lp-json-pollock-element-text.lpc_card__text.lpc_desktop .lp-json-pollock-layout.lp-json-pollock-layout-horizontal.lpc_card.lpc_card_horizontal.lpc_mobile:first-child{
+    background: #fff!important;
+}
+
+.lp-json-pollock .lp-json-pollock-layout.lp-json-pollock-layout-vertical.lpc_card.lpc_card_vertical.lpc_desktop .lp-json-pollock-element-text.lpc_card__text.lpc_desktop, .lp-json-pollock .lp-json-pollock-layout.lp-json-pollock-layout-vertical.lpc_card.lpc_card_vertical.lpc_mobile .lp-json-pollock-element-text.lpc_card__text.lpc_mobile {
+	background-color: initial!important;
+	border-radius: 0!important;
+	box-shadow: none!important;
+	border-top: 0!important;
+	max-width: none!important;
+}
+
+/*checkbox cards fixes*/
+.lp-json-pollock .lp-json-pollock-layout.lp-json-pollock-layout-vertical.lpc_card.lpc_card_vertical.lpc_desktop .lp-json-pollock-layout.lp-json-pollock-layout-form.lpc_desktop .lp-json-pollock-element-text.lpc_card__text.lpc_desktop {
+background: transparent!important;
+border-radius: 0!important;
+box-shadow: none!important;
+border-top: 0!important;
+max-width: none!important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-form>.lp-json-pollock-element-text {
+font-size: 13px!important;
+padding: 5px!important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout {
+background: transparent!important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-form .lp-json-pollock-layout-sectionList .lp-json-pollock-layout-section .lp-json-pollock-layout-checklist>.lp-json-pollock-element-checkbox .lp-json-pollock-element-checkbox-wrapper  {
+border-top: 1px solid rgb(212, 212, 213);
+padding: 5px!important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-form .lp-json-pollock-layout-buttonList {
+margin: 0!important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-form .lp-json-pollock-layout-buttonList .lp-json-pollock-element-submit-button {
+	border: none !important;
+	background-color: #50e6ff !important;
+	margin: 12px auto !important;
+	box-shadow: 0 3px 5px -2px rgba(0, 0, 0, 0.25) !important;
+	border-radius: 2px !important;
+	cursor: pointer!important;
+}
+
+.lp-json-pollock-element-submit-button:hover {
+transform: translateY(-2px) !important;
+transition: all 0.15s ease !important;
+box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.5) !important;
+cursor: pointer!important;
+
+}
+.lp-json-pollock-element-submit-button input[type=submit]:hover {
+box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.5) !important;
+}
+
+.lp-json-pollock-element-button button:hover {
+box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.5) !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-form .lp-json-pollock-layout-buttonList .lp-json-pollock-element-submit-button input[type=submit] {
+	border: none!important;
+	color: black!important;
+	font-size: 13px!important;
+	cursor: pointer!important;
+	border-radius: 2px;
+}
+
+.lp-json-pollock-element-button button {
+	border: none!important;
+	border-radius: 2px;
+}
+
+/*tooltips*/
+.lp-window-root .tooltip {
+	position: fixed;
+	padding: 10px 20px;
+	border: 1px solid #b3c9ce;
+	border-radius: 4px;
+	text-align: center;
+	font: italic 14px/1.3 sans-serif;
+	color: #333;
+	background: #fff;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+}
+
+#lp-iframe-container {
+	bottom: 24px !important;
+	right: 24px !important;
+	border: none !important;
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.25);
+	min-width: 350px !important;
+	max-width: 350px !important;
+	height: 500px !important;
+}
+
+.lp-iframe-window, .lp_desktop #lpChat > .lp_maximized {
+	border: none !important;
+	width: 400px !important;
+	height: 600px !important;
+}
+
+.s-multiflyout-bottom {
+	display: none;
+}
+
+[data-lp-cust-id="transcript_bubble_agent"], [data-lp-cust-id="transcript_bubble_visitor"] {
+	padding: 12px !important;
+	border: none !important;
+	max-width: 80% !important;
+}
+
+[data-lp-cust-id="transcript_bubble_agent_text"] {
+line-height: 1.45em !important;
+}
+
+[data-lp-point="engagement_area"] {
+height: calc(100% - 40px) !important;
+}
+
+[data-lp-point="lp_line_state"] {
+left: -90px !important;
+}
+
+[data-lp-point="engagement_area"] {
+background-color: #f2f2f2 !important;
+}
+
+[data-lp-point="engagement_area"] [data-lp-point="header"] {
+background-color: #274b47 !important;
+border: none !important;
+}
+
+[data-lp-point="headerText"] {
+color: #fff !important;
+}
+
+[data-lp-cust-id="transcript_bubble_agent_text"] {
+color: #000 !important;
+}
+
+.lp_desktop #lpChat .lp_minimize-icon img, .lp_desktop #lpChat .lp_close-icon img {
+top: -40px !important;
+}
+
+[data-lp-point="chattingWithIcon"] {
+display: none !important;
+}
+
+.lp-window-root button.chips-item {
+	background-color: #50e6ff !important;
+	border: none !important;
+	border-radius: 2px !important;
+	box-shadow: 0 3px 5px -2px rgba(0, 0, 0, 0.25) !important;
+	min-width: 100px !important;
+	text-align: center !important;
+}
+.lp-json-pollock-layout.lp-json-pollock-layout-vertical {
+	border: none !important;
+	background-color: transparent !important;
+}
+.lp-json-pollock-element-button {
+	border: none !important;
+	background-color: #50e6ff !important;
+	margin: 12px auto !important;
+	box-shadow: 0 3px 5px -2px rgba(0, 0, 0, 0.25) !important;
+	border-radius: 2px !important;
+}
+.lp-json-pollock-element-button button {
+color: #000 !important;
+cursor: pointer;
+white-space: pre-line !important;
+}
+
+/*  styles for replaced buttons by link */
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-element-button a {
+display: block;
+margin-bottom: 0;
+border: none;
+background: none;
+width: 100%;
+min-height: 32px;
+text-align: center;
+text-decoration: none;
+padding: 10px;
+transition: all 0.15s ease !important;
+box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0) !important;
+color: #000 !important;
+cursor: pointer;
+font-size: 1em;
+border-radius: 0;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-element-button a:hover {
+outline: 1px dashed #000 !important;
+}
+
+.lp-json-pollock-element-button:hover, button.chips-item:hover {
+transform: translateY(-2px) !important;
+transition: all 0.15s ease !important;
+box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.5) !important;
+}
+
+.lp_chat_line_wrapper {
+overflow: visible !important;
+margin-bottom: 12px !important;
+}
+
+[data-lp-cust-id="transcript_bubble_agent"] {
+background-color: #fff !important;
+border-radius: 0 !important;
+border-top: 2px solid #50e6ff !important;
+box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.25) !important;
+}
+
+.lp_chat_arrow_border {
+display: none !important;
+}
+
+#lp-iframe-container, iframe.lp-iframe-window {
+border-radius: 5px !important;
+}
+
+[data-lp-point="header"] {
+height: 40px !important;
+padding: 0px 15px !important;
+}
+
+.lp_chat_line_wrapper {
+overflow: visible !important;
+margin-bottom: 12px !important;
+padding: 0px 10px 4px 24px !important;
+}
+
+.lp_time {
+color: #6e6e6e !important;
+}
+
+.lp_chat_line {
+	border-radius: 2px !important;
+}
+
+.lp-window-root button.chips-item:first-of-type {
+margin-left: 14px !important;
+}
+
+[data-lp-cust-id="transcript_bubble_visitor"] {
+background-color: #d2d2d2 !important;
+box-shadow: 0 3px 5px -3px rgba(0, 0, 0, 0.25) !important;
+min-width: 60px;
+text-align: center !important;
+margin: 0 auto !important;
+}
+
+[data-lp-cust-id="transcript_bubble_visitor_text"] {
+color: #000 !important;
+}
+
+.lp-window-root button.chips-item {
+	border-radius: 2px !important;
+}
+
+.lp_chat_arrow, .lp_chat_arrow_border {
+display: none !important;
+}
+
+.lp-json-pollock-element-text {
+padding: 0 !important;
+}
+
+#lpChat .lp_main .lp_main_area .lp_location_bottom .lp_bottom_area {
+padding-left: 24px !important;
+}
+
+textarea.lpview_form_textarea.lp_expandable_textarea.lp_ltr {
+color: #6e6e6e !important;
+}
+
+.lp_system {
+background-color: #fff !important;
+padding: 18px !important;
+}
+
+#lpChat img {
+vertical-align: top !important;
+}
+
+.lp_desktop #lpChat > .lp_maximized > .lp_main {
+top: 40px !important;
+}
+
+.lp-window-root span {
+font-size: inherit !important;
+}
+
+/* store styles for screen reader */
+.lp-window-root .map-link {
+display: block;
+}
+
+.lp-window-root .screen-reader-new-tab{
+opacity: 0 !important;
+width: 0 !important;
+height: 0 !important;
+overflow: hidden !important;
+position: absolute !important;
+}
+
+.lp-window-root #disabled-element {
+    opacity: 0;
+    font-size: 23px;
+    position: absolute;
+    line-height: 1.35em;
+}
+
+/* css for window */
+@font-face {
+    font-family: "Segoe LP";
+    src: url("https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2") format("woff");
+}
+
+#lpChat .lp_minimized .lp_notification_number {
+    margin-top: 2px !important;
+}
+
+.lp-json-pollock-layout.lp-json-pollock-layout-vertical {
+    border-radius: 15px;
+}
+
+#lpChat .lp_csat_rater_star {
+    color: #fff !important;
+}
+
+span[role="heading"], div[data-lp-cust-id="transcript_bubble_agent_text"], div[data-lp-cust-id="transcript_bubble_visitor_text"], textarea[data-lp-point="chat_input"], div[data-lp-point="title"] {
+    font-family: "Segoe LP" !important;
+}
+
+.lp-window-root #title {
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px 70px;
+    font-family: "Segoe LP" !important;
+}
+
+.lp-window-root .lp_main .lp_main_area .lp_location_center {
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .lp-window-root .lp_main .lp_main_area .lp_location_center {
+        scroll-behavior: auto;
+    }
+}
+
+/* tonys code */
+
+.lp_desktop #lpChat>.lp_maximized {
+    height: 600px !important;
+    width: 400px !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    font-size: 14px !important;
+    font-family: "Segoe LP" !important;
+}
+
+.lp_desktop #lpChat>.lp_maximized,
+.lp-window-root .chips-wrapper .chips-row>.chips-item,
+.lp_desktop .lp-window-root,
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-form>.lp-json-pollock-element-text,
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-element-text,
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-form .lp-json-pollock-layout-sectionList .lp-json-pollock-layout-section .lp-json-pollock-layout-checklist>.lp-json-pollock-element-checkbox .lp-json-pollock-element-checkbox-wrapper .lp-json-pollock-element-checkbox-label,
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-form .lp-json-pollock-layout-buttonList .lp-json-pollock-element-submit-button input[type=submit],
+.lp-window-root .lp_chat_line_wrapper.lp_system .lp_chat_line .lp_title_text,
+.lp-window-root .lp_chat_line_wrapper.lp_system .lp_chat_line .lp_title_text * {
+    font-size: 14px !important;
+    font-family: "Segoe LP" !important;
+}
+
+[data-lp-cust-id="transcript_bubble_agent_text"],
+[data-lp-cust-id="transcript_bubble_visitor_text"] {
+line-height: 1.35em !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout:not(form),
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock.lp-json-pollock-single-element:not(form) {
+	max-width: 80% !important;
+	padding: 12px !important;
+}
+
+.lp_mobile .lp-window-root>.lp_maximized>.lp_header,
+.lp_tablet .lp-window-root>.lp_maximized>.lp_header,
+.lp_desktop .lp-window-root>.lp_maximized>.lp_header {
+	border-radius: 2px 2px 0 0;
+}
+
+.lp_header .lpc_maximized-header .lpc_desktop {
+    border-radius: 2px 2px 2px 2px !important;
+}
+
+.lp_time.lpc_message-area__timestamp.lpc_message-area__timestamp_agent.lpc_message-area__timestamp_avatar-hidden.lpc_desktop,
+.lp_time.lpc_message-area__timestamp.lpc_message-area__timestamp_visitor.lpc_desktop {
+display: none !important;
+}
+
+[data-lp-cust-id="transcript_bubble_agent"] {
+    border-radius: 2px !important;
+    border-top: 2px solid #50e6ff !important;
+}
+
+.lp-json-pollock-element-button {
+    box-shadow: none !important;
+    border-radius: 2px !important;
+}
+
+.lp-json-pollock-element-button button {
+    transition: all 0.15s ease !important;
+    box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0) !important;
+}
+
+.lp-json-pollock-element-button button:hover, .lp-json-pollock-element-button button:focus {
+    box-shadow: 0 2px 6px -2px rgba(0, 0, 0, 0.25) !important;
+    outline: 1px dashed #000 !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-element-button button {
+    margin-bottom: 0;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-vertical {
+    background-color: #fff !important;
+    background: #fff !important;
+    border-radius: 2px !important;
+    box-sizing: border-box;
+    border-top: 2px solid #50e6ff !important;
+    box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.25) !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper.lpc_message-area .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout .lp-json-pollock-element-text {
+    padding: 0 0 6px !important;
+}
+
+[data-lp-cust-id="transcript_bubble_visitor"] {
+    box-shadow: none !important;
+}
+
+.lp_chat_line {
+    border-radius: 2px !important;
+}
+
+.lp-window-root button.chips-item {
+    box-shadow: none !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout,
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock.lp-json-pollock-single-element {
+max-width: fit-content;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-form .lp-json-pollock-layout-sectionList .lp-json-pollock-layout-section .lp-json-pollock-layout-checklist>.lp-json-pollock-element-checkbox .lp-json-pollock-element-checkbox-wrapper {
+    border-top: none;
+    padding: 8px 0 !important;
+}
+
+.lp-json-pollock-element-submit-button input[type=submit] {
+    padding: 10px !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-form .lp-json-pollock-layout-buttonList .lp-json-pollock-element-submit-button {
+    box-shadow: none !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper.lpc_message-area .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout .lp-json-pollock-element-text:nth-child(2n+1) {
+    border-right: none !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-carousel-wrapper .lp-json-pollock-layout-carousel>* {
+    width: 80% !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-carousel-wrapper {
+    overflow: visible !important;
+}
+
+[data-lp-cust-id="transcript_bubble_agent"] {
+    max-width: 280px !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-carousel-wrapper .lp-json-pollock-layout-carousel>* {
+    width: 280px !important;
+    margin: 0 12px 0 0 !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper.lpc_message-area .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout .lp-json-pollock-layout .lp-json-pollock-element-text {
+    padding: 0 !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout:not(form),
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock.lp-json-pollock-single-element:not(form) {
+	max-width: 280px !important;
+	padding: 12px !important;
+}
+
+.lp-json-pollock-layout-carousel-wrapper .lp-json-pollock-layout-carousel .lp-json-pollock-layout.lp-json-pollock-layout-vertical.lpc_card.lpc_card_vertical.lpc_desktop > div {
+    max-width: 100% !important;
+    padding: 0 !important;
+    border-top: none !important;
+    box-shadow: none !important;
+}
+
+.lp-json-pollock-layout.lp-json-pollock-layout-vertical.lpc_card.lpc_card_vertical.lpc_desktop .lp-json-pollock-layout.lp-json-pollock-layout-vertical.lpc_card.lpc_card_vertical.lpc_desktop, .lp-json-pollock.lp-json-pollock-single-element .lp-json-pollock-element-text {
+    max-width: 100% !important;
+    padding: 0 !important;
+    border-top: none !important;
+    box-shadow: none !important;
+}
+
+.lp-json-pollock.lp-json-pollock-single-element:not(form) {
+    background-color: #fff !important;
+    background: #fff !important;
+    border-radius: 2px !important;
+    box-sizing: border-box;
+    border: none !important;
+    border-top: 2px solid #50e6ff !important;
+    box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.25) !important;
+}
+
+input.lp-json-pollock-element-checkbox-input {
+    cursor: pointer !important;
+    vertical-align: 0px !important;
+}
+
+.lp-json-pollock-element-image.lpc_card__image.lpc_desktop+.lp-json-pollock-layout.lp-json-pollock-layout-vertical.lpc_card.lpc_card_vertical.lpc_desktop .lpc_card__text {
+    padding: 2px !important;
+}
+
+.lp-json-pollock-element-image.lpc_card__image.lpc_desktop {
+    border-top: none !important;
+}
+
+.lp-json-pollock-layout-carousel {
+    width: fit-content !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout-carousel-wrapper .lp-json-pollock-layout-carousel>* {
+    display: grid !important;
+    align-content: space-between;
+}
+
+/* ADA Code 4/20 */
+.lp-window-root .lp_chat_line_wrapper.lpc_message-area .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout .lp-json-pollock-element-text:nth-child(even) span {
+    color: #737373 !important;
+}
+
+textarea.lpview_form_textarea.lp_expandable_textarea.lp_ltr, textarea.lpview_form_textarea.lp_expandable_textarea.lp_ltr::placeholder {
+    color: #000 !important;
+    opacity: 1;
+}
+
+/* Fixes for container widths using complex layouts */
+.lp-window-root .lp_chat_line_wrapper .lp_rich_content_line .lp_title_text .lp-json-pollock .lp-json-pollock-layout {
+    max-width: 100% !important;
+}
+
+/* Video window button focus outline fix */
+#lpChat button.cobrowse-call-button:focus, #lpChat button.lp_maximize:focus, #lpChat button.lp_minimize:focus, #lpChat button.lp_close:focus {
+    outline: #fff dashed 1px !important;
+}
+#lpChat button.lp_maximize .lp_title {
+    background-color: transparent;
+}
+
+/* Fixes weird spacing which causes the focus indicator to go out of bounds in the sidebar/video/cobrowse restore button. */
+.lp-window-root .lp_tooltip .lp_title {
+    padding-top: 4px !important;
+}
+.lp-window-root .lp_tooltip.lp_tooltip_call button.lp_maximize {
+    top: 0 !important;
+    margin: 1px !important;
+}
+
+/* Fixes tooltip dimensions for maximize button */
+.lp_minimized button.lp_ctooltip:hover .lp_ctooltip_txt, .lp_minimized button.lp_ctooltip:focus .lp_ctooltip_txt  {
+    padding: 10px 10px !important;
+    width: max-content !important;
+}
+
+#lpChat button.cobrowse-call-button:focus, #lpChat button.lp_maximize:focus {
+    outline: #fff dashed 1px !important;
+}
+
+@media (forced-colors: active) and (prefers-color-scheme: light) {
+	img.lpc_desktop {
+		filter: invert(1) brightness(0);
+	}
+}
