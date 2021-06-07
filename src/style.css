@@ -154,6 +154,59 @@ li {
 }
 /*? SHOWCASE AREA BOTTOM ENDS **/
 
+/** TABS AREA **/
+
+.tabs-button-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.tabs-buttons {
+  margin-top: 6rem;
+}
+
+.tabs-buttons a:first-child {
+  margin-right: 3rem;
+}
+
+.tabs-blog-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 1.7rem;
+}
+
+.tabs-blog-container img {
+  width: 100%;
+}
+
+.tabs-blog {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+}
+
+.tabs-blog h1 {
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: black;
+}
+
+.tabs-blog p {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  color: black;
+}
+
+/** TABS AREA ENDS **/
+
 /* ! HELPER CLASSES */
 
 /** TEXT STYLES **/
@@ -178,7 +231,7 @@ li {
 
 .btn {
   display: inline-block;
-  cursor: pointe;
+  cursor: pointer;
   border: 0;
   font-weight: bold;
   background: #262626;
@@ -190,4 +243,16 @@ li {
 
 .btn:hover {
   opacity: 0.9;
+}
+
+.btn-red {
+  background: #9f4633;
+}
+
+.btn-blue {
+  margin-top: 0.7rem;
+  background: none;
+  color: blue;
+  border-bottom: 2px solid;
+  padding: 1rem 0 0 0;
 }
