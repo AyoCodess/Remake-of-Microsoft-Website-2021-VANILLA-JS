@@ -354,6 +354,42 @@ li {
 
 /* * COVID STATEMENT - ENDS */
 
+/* ? FOOTER AREA */
+
+.footer-container {
+  display: flex;
+  background-color: #f2f2f2;
+
+  justify-content: center;
+
+  margin-top: 4rem;
+}
+
+.nav-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 12rem;
+}
+
+.nav-group {
+}
+
+.nav-group h1 {
+  font-size: 1.2rem;
+  color: black;
+
+  margin-bottom: 1rem;
+  margin-top: 3.5rem;
+}
+
+.nav-group li {
+  margin-top: 1rem;
+
+  color: gray;
+}
+
+/* ? FOOTER AREA - ENDS  */
+
 /* ! HELPER CLASSES */
 
 /** TEXT STYLES **/
