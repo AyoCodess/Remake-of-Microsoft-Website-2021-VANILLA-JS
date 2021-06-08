@@ -569,6 +569,8 @@ footer {
 
 /* ! MEDIA QUERIES */
 
+/*? HAMBURGER MENU */
+
 @media (max-width: 1284px) {
   .container-2-media-queries {
     margin-top: 7rem;
@@ -585,14 +587,17 @@ footer {
 
   .menu-bar {
     display: block;
-    position: absolute;
+    position: fixed;
 
     top: 0;
     left: 0;
 
     background: #f2f2f2;
     width: 50%;
-    height: 234%;
+    height: 100%;
+
+    opacity: 0.9;
+    border-right: 1px solid #ccc;
   }
 
   .main-nav img {
@@ -606,11 +611,13 @@ footer {
   .main-nav .main-menu {
     position: absolute;
     top: 10rem;
+    width: 25rem;
   }
 
   .main-nav .right-menu {
     position: absolute;
-    top: 25rem;
+    top: 55rem;
+    width: 25rem;
   }
 
   .main-menu {
@@ -624,6 +631,13 @@ footer {
 
   .main-menu a {
     margin: 0;
+  }
+
+  .main-menu li,
+  .right-menu li {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
   }
 }
 
