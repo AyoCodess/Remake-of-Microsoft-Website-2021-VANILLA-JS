@@ -287,6 +287,73 @@ li {
 
 /* * SHOWCASE 2 AREA ENDS */
 
+/* ? BUSINESS BLOGS */
+
+.business-blog-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+
+  justify-content: center;
+
+  margin-top: 2rem;
+}
+
+.business-blog-container img {
+  width: 100%;
+}
+
+.business-blogs {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+}
+
+.business-blog h1 {
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: black;
+}
+
+.business-blog p {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  color: black;
+}
+
+/* ? BUSINESS BLOGS - ENDS */
+
+/* * COVID STATEMENT */
+
+.covid-statement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: #e7e6e7;
+
+  margin-top: 4rem;
+}
+
+.covid-statement h1 {
+  margin-top: 2rem;
+  color: black;
+  font-size: 3rem;
+}
+
+.covid-statement p {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: black;
+}
+.covid-statement a {
+  margin-bottom: 2rem;
+}
+
+/* * COVID STATEMENT - ENDS */
+
 /* ! HELPER CLASSES */
 
 /** TEXT STYLES **/
@@ -299,6 +366,14 @@ li {
   color: black;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.header {
+  color: black;
+  font-size: 2.7rem;
+  font-weight: bold;
+
+  margin-top: 5rem;
 }
 
 .showcase-bottom-text a {
@@ -332,9 +407,23 @@ li {
 .btn-blue {
   margin-top: 0.7rem;
   background: none;
-  color: blue;
+  color: #1467b8;
+
+  padding: 1em 0 0 0;
+}
+
+.btn-blue:hover {
   border-bottom: 2px solid;
-  padding: 1rem 0 0 0;
+}
+
+.btn-black {
+  background: none;
+  color: black;
+  padding: 1em 0 0 0;
+}
+
+.btn-black:hover {
+  border-bottom: 2px solid;
 }
 
 .tabs-button {
