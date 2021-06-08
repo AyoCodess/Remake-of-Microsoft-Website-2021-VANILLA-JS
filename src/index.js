@@ -24,3 +24,15 @@ function removeShow() {
     item.classList.remove("show");
   });
 }
+
+const menuBtn = document.querySelector(`.menu-btn-icon`);
+
+menuBtn.addEventListener("click", displayMenu);
+
+function displayMenu(e) {
+  const menuBar = document.querySelector(`.menu-visibility`);
+
+  menuBar.classList.contains(`show`)
+    ? menuBar.classList.remove(`show`)
+    : menuBar.classList.add(`show`);
+}

@@ -45,19 +45,6 @@ a {
 
 /* ! BASIC SETUP ENDS */
 
-.menu-btn {
-  cursor: pointer;
-  position: absolute;
-  top: 3rem;
-  right: 13rem;
-  z-index: 2;
-  display: none;
-}
-
-.menu-btn:hover {
-  opacity: 0.8;
-}
-
 .container {
   width: 80%;
   max-width: 1100px;
@@ -83,6 +70,27 @@ a {
 }
 
 /* * HAMBURGER MENU **/
+
+/* .container-menu {
+  position: absolute;
+
+  width: 80%;
+  max-width: 1100px;
+  margin: auto;
+} */
+
+.menu-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 3rem;
+  right: 10%;
+  z-index: 5;
+  display: none;
+}
+
+.menu-btn:hover {
+  opacity: 0.8;
+}
 
 /*? NAVIGATION BAR */
 
@@ -575,13 +583,21 @@ footer {
   .container-2-media-queries {
     margin-top: 7rem;
   }
+
   .menu-btn {
     display: block;
   }
 
+  .menu-visibility {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
   .main-nav .main-menu,
-  .main-nav .right-menu,
-  .main-nav img {
+  .main-nav .right-menu {
     display: block;
   }
 
@@ -601,23 +617,23 @@ footer {
   }
 
   .main-nav img {
-    position: absolute;
+    position: fixed;
     top: 3rem;
-    left: 6rem;
+    left: 5%;
 
-    width: 15rem;
+    width: 10rem;
   }
 
   .main-nav .main-menu {
     position: absolute;
     top: 10rem;
-    width: 25rem;
+    width: 80%;
   }
 
   .main-nav .right-menu {
     position: absolute;
     top: 55rem;
-    width: 25rem;
+    width: 80%;
   }
 
   .main-menu {
