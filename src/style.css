@@ -362,7 +362,7 @@ li {
 }
 
 .showcase2-text-area a {
-  width: 13rem;
+  width: 14rem;
 }
 
 /* * SHOWCASE 2 AREA ENDS */
@@ -843,6 +843,12 @@ footer {
 }
 
 @media (max-width: 607px) {
+  /* * correcting image issue when we resize */
+
+  .tabs-blog .img2,
+  resize .tabs-blog .img4 {
+    width: 90vw;
+  }
   /* ? SHOW SIDERS 1 & 2 */
 
   .showcase {
