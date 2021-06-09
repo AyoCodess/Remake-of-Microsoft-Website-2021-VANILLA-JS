@@ -518,6 +518,10 @@ footer {
   margin-right: 2.5rem;
 }
 
+.sub-footer ul li a {
+  color: #999;
+}
+
 /* * FOOTER AREA - ENDS  */
 
 /* ! HELPER CLASSES */
@@ -846,16 +850,17 @@ footer {
   /* * correcting image issue when we resize */
 
   .tabs-blog .img2,
-  resize .tabs-blog .img4 {
+  .tabs-blog .img4 {
     width: 90vw;
   }
   /* ? SHOW SIDERS 1 & 2 */
 
   .showcase {
     width: 100%;
-    height: 60vh;
-    background: url(/images/heroSlider.jpeg) no-repeat center;
-    background-position: right 21% bottom 100%;
+    height: 80vh;
+    background: url(/images/NEW\ HERO.png) no-repeat;
+    background-position: right 50% top 90%;
+    background-size: cover;
   }
 
   .showcase2 {
@@ -911,5 +916,18 @@ footer {
 
   .covid-statement p {
     font-size: 1rem;
+  }
+  .sub-footer {
+    flex-direction: column;
+  }
+
+  .sub-footer ul {
+    flex-direction: column;
+
+    margin-top: 2rem;
+  }
+
+  .sub-footer ul li:last-child {
+    margin-top: 1rem;
   }
 }
