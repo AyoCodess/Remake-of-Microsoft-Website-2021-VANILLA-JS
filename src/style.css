@@ -73,6 +73,10 @@ a {
   display: none;
 }
 
+.active-menu {
+  display: block;
+}
+
 /* * HAMBURGER MENU **/
 
 /* .container-menu {
@@ -601,10 +605,6 @@ footer {
     display: none;
   }
 
-  .show {
-    display: block;
-  }
-
   .main-nav .main-menu,
   .main-nav .right-menu {
     display: block;
@@ -654,8 +654,18 @@ footer {
     padding: 0;
   }
 
+  .right-menu a:hover {
+    border: none;
+    color: black;
+  }
+
   .main-menu a {
     margin: 0;
+  }
+
+  .main-menu a:hover {
+    border: none;
+    color: black;
   }
 
   .main-menu li,
