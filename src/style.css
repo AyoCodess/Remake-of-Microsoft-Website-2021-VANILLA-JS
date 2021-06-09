@@ -332,11 +332,37 @@ li {
 /* * SHOWCASE 2 AREA */
 
 .showcase2 {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
   width: 100%;
   height: 40rem;
   background: url(/images/slider2.png) no-repeat center center/cover;
 
   margin-top: 6rem;
+}
+
+.showcase2-text-area {
+  display: grid;
+  gap: 1.5rem;
+
+  padding: 0 2rem;
+}
+
+.showcase2-text-area h2 {
+  color: #262626;
+  font-size: 3rem;
+}
+
+.showcase2-text-area p {
+  color: #262626;
+  font-weight: bold;
+}
+
+.showcase2-text-area a {
+  width: 13rem;
 }
 
 /* * SHOWCASE 2 AREA ENDS */
@@ -733,7 +759,7 @@ footer {
   }
 
   .tabs-button-container {
-    margin-top: 0rem;
+    margin-top: 2rem;
     align-content: flex-start;
   }
 
@@ -816,7 +842,36 @@ footer {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 607px) {
+  /* ? SHOW SIDERS 1 & 2 */
+
+  .showcase {
+    width: 100%;
+    height: 60vh;
+    background: url(/images/heroSlider.jpeg) no-repeat center;
+    background-position: right 21% bottom 100%;
+  }
+
+  .showcase2 {
+    width: 100%;
+    height: 60vh;
+    background: url(/images/slider2.png) no-repeat center center;
+    background-position: left 16% bottom 5%;
+
+    margin-top: 6rem;
+  }
+
+  /* ? TAB ABOUT ME SECTION */
+
+  .tabs-about-me-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .tabs-about-me-textarea {
+    text-align: center;
+  }
+
   /* ? TABS BLOGS */
 
   .tabs-blog-container {
@@ -831,10 +886,24 @@ footer {
     grid-template-rows: repeat(1, 1fr);
   }
 
-  /* ? NAV-CONTAINER */
+  .business-blog:nth-child(2) {
+    margin-top: 4rem;
+  }
 
   .nav-container {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    /* grid-template-columns: 1fr; */
+    display: block;
+  }
+
+  .nav-container div {
+    text-align: left;
+  }
+
+  .covid-statement h1 {
+    font-size: 2rem;
+  }
+
+  .covid-statement p {
+    font-size: 1rem;
   }
 }
