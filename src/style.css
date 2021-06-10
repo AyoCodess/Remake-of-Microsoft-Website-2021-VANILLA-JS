@@ -739,6 +739,8 @@ footer {
     display: grid;
     grid-template-columns: fit-content(100%) fit-content(100%);
     max-width: 30rem;
+
+    margin-bottom: 1rem;
   }
 
   .showcase-bottom-text img {
@@ -746,7 +748,7 @@ footer {
   }
 
   .tabs-button-container {
-    margin-top: 2rem;
+    margin-top: 1rem;
     align-content: flex-start;
   }
 
