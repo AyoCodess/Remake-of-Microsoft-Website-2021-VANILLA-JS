@@ -1,9 +1,7 @@
 # Microsoft-Website-2021
 
-Title <br>
+<strong>Information:</strong> This landing page is fully responsive and optimized for all tablets and mobile devices. <br>
 
-Information: This landing page is fully responsive and optimized for all tablets and mobile devices. <br>
+<strong>Technology:</strong> HTML, CSS , Vanilla JS and Parcel Bundler JS (Deployment) <br>
 
-Technology: HTML, CSS , Vanilla JS and Parcel Bundler JS (Deployment) <br>
-
-Live Demo: https://microsoft-2021-website-ayocodess.netlify.app/
+<strong>Live Demo:</strong> https://microsoft-2021-website-ayocodess.netlify.app/
