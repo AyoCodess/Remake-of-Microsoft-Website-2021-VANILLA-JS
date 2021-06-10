@@ -4,4 +4,4 @@
 
 <strong>Technology:</strong> HTML, CSS , Vanilla JS and Parcel Bundler JS (Deployment) <br>
 
-<strong>Live Demo:</strong> https://microsoft-2021-website-ayocodess.netlify.app/
+<strong>Live Demo:</strong> https://microsoft-2021-website-ayocodess.netlify.app/#
