@@ -298,6 +298,8 @@ li {
   justify-content: center;
   align-items: center;
   justify-items: center;
+
+  margin-bottom: 5rem;
 }
 
 .tabs-about-me {
@@ -794,9 +796,17 @@ footer {
 
   /* ? TABS BLOGS */
 
+  .tabs-about-me-container-with-image {
+    margin-top: 0rem;
+  }
   .tabs-blog-container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+  }
+
+  /* ? TABS ABOUT MW */
+
+  .tabs-about-me-container {
   }
 
   /* ? BUSINESS BLOGS */
