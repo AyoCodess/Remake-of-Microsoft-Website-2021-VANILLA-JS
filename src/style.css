@@ -332,37 +332,18 @@ li {
 /* * SHOWCASE 2 AREA */
 
 .showcase2 {
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
-
   width: 100%;
   height: 40rem;
   background: url(/images/slider2.png) no-repeat center center/cover;
-
-  margin-top: 6rem;
 }
 
-.showcase2-text-area {
-  display: grid;
-  gap: 1.5rem;
-
-  padding: 0 2rem;
+.showcase2 p {
+  min-width: 25rem;
+  padding-right: 5rem;
 }
 
-.showcase2-text-area h2 {
-  color: #262626;
-  font-size: 3rem;
-}
-
-.showcase2-text-area p {
-  color: #262626;
-  font-weight: bold;
-}
-
-.showcase2-text-area a {
-  width: 14rem;
+.showcase2 h2 {
+  padding-right: 0.6rem;
 }
 
 /* * SHOWCASE 2 AREA ENDS */
@@ -865,11 +846,12 @@ footer {
 
   .showcase2 {
     width: 100%;
-    height: 60vh;
-    background: url(/images/slider2.png) no-repeat center center;
-    background-position: left 16% bottom 5%;
+    height: 80vh;
+    background: url(/images/NEW-HERO2.png) no-repeat;
+    background-position: right 50% top 90%;
+    background-size: cover;
 
-    margin-top: 6rem;
+    margin-bottom: 6rem;
   }
 
   /* ? TAB ABOUT ME SECTION */
