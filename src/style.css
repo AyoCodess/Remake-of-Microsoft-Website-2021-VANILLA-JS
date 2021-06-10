@@ -89,7 +89,7 @@ a {
 
 .menu-btn {
   cursor: pointer;
-  position: absolute;
+  position: fixed;
   top: 3rem;
   right: 10%;
   z-index: 5;
@@ -639,7 +639,7 @@ footer {
   .main-nav img {
     position: fixed;
     top: 3rem;
-    left: 6%;
+    left: 3.2vw;
 
     width: 10rem;
   }
